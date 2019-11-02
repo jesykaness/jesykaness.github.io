@@ -1,53 +1,126 @@
-header {
-  background: url(../images/hero.jpg) center / cover;
-  height: 60vh;
-  justify-content: center;
-  text-align: center;
+body {
+  background-color: #FFFFFF;
+  margin-left: 165px;
+  margin-right: 165px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
 }
 
 h1 {
-  color: hsla(0, 0%, 0%, 0.3);
-  font-weight: bold;
-  font-size: 3.5rem;
+  font-size: 32px;
+  text-align: left;
 }
 
-.slogan {
-  color: hsla(0, 0%, 100%, 0.7);
-  font-weight: lighter;
-  font-size: 1.6rem;
+h2 {
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: left;
 }
 
-main {
-  max-width: 900px;
+h3 {
+  font-size: 14px;
 }
 
-body {
-  padding-bottom: 5rem;
+h4 {
+  font-color: #FFFFFF;
+  font-size: 10px;
 }
 
-.project-description {
-  padding-left:0;
+.logo {
+  height: 75px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.project img {
-  width: 100%;
+.navigation {
+  float: right;
+  height: 20px;
+  list-style-type: none;
+  padding-top: 55px;
+  text-align: center;
+  width: 300px;
 }
 
-footer.mdl-mini-footer {
+.navigation li {
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.navigation a:link, a:visited, a:active {
+  color: #000000;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+.hello {
+  height: 451px;
+}
+
+.hello img {
+  margin-right: 30px;
+  padding-bottom: 30px;
+}
+
+.projects {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.project_logos a:link, a:visited, a:active {
+  color: #000000;
+  text-decoration: none;
+}
+
+.project_logos a:hover {
+  text-decoration: underline;
+}
+
+.project_logos {
+  list-style-type: none;
+}
+
+.project_logos img {
+  height: 250px;
+  padding: 15px;
+}
+
+.project_logos li {
+  display: inline-block;
+}
+
+footer {
+  background-color: #c4c4c4;
   bottom: 0;
-  padding: 0.5rem;
-  position: fixed;
+  font-color: #FFFFFF;
+  height: 75px;
+  padding-top: 0.5rem;
+  text-align: center;
   width: 100%;
-  z-index: 1;
 }
 
-footer.mdl-mini-footer > ul {
-  margin: auto;
-  font-size: 1.5rem;
+.social_media {
+  list-style-type: none;
+  margin: 10px;
+  font-color: #FFFFFF;
+  font-size: 1.25rem;
 }
 
-@media screen and (max-width: 1042px){
+.social_media li{
+  display: inline-block;
+  padding: 2px;
+}
+
+.social_media a:link, a:visited, a:active, a:hover {
+  color: #FFFFFF;
+}
+
+@media screen and (min-width: 500px, max-width: 1042px){
   header.mdl-layout__header{
     display: flex;
-  }
 }
