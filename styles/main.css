@@ -35,7 +35,6 @@ h3 {
 }
 
 h4 {
-  font-color: #FFFFFF;
   font-size: 1rem;
 }
 
@@ -50,7 +49,6 @@ h4 {
   height: 20px;
   list-style-type: none;
   padding-top: 55px;
-  text-align: center;
   width: 300px;
 }
 
@@ -61,7 +59,7 @@ h4 {
 }
 
 .hello {
-  ;
+  padding-bottom: 50px;
 }
 
 .projects {
@@ -83,13 +81,17 @@ h4 {
 }
 
 footer {
-  background-color: #c4c4c4;
+  background-color: #545454;
   bottom: 0;
   color: #FFFFFF;
   height: 75px;
   padding-top: 0.5rem;
   text-align: center;
   width: 100%;
+}
+
+.thanks {
+  padding-top: 20px;
 }
 
 .social_media {
@@ -99,8 +101,11 @@ footer {
   font-size: 1.25rem;
 }
 
-.social_media li{
+.social_media i {
   color: #FFFFFF;
+}
+
+.social_media li{
   display: inline-block;
   padding: 2px;
 }
