@@ -1,3 +1,14 @@
+html {
+  font-size: 10px;
+}
+
+.container {
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+}
+
 body {
   background-color: #FFFFFF;
   margin-left: 165px;
@@ -9,23 +20,23 @@ body {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 3.2rem;
   text-align: left;
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: bolder;
   text-align: left;
 }
 
 h3 {
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 h4 {
   font-color: #FFFFFF;
-  font-size: 10px;
+  font-size: 1rem;
 }
 
 .logo {
@@ -49,36 +60,13 @@ h4 {
   padding: 10px;
 }
 
-.navigation a:link, a:visited, a:active {
-  color: #000000;
-  text-decoration: none;
-}
-
-.navigation a:hover {
-  text-decoration: underline;
-}
-
 .hello {
-  height: 451px;
-}
-
-.hello img {
-  margin-right: 30px;
-  padding-bottom: 30px;
+  ;
 }
 
 .projects {
   margin-bottom: 50px;
   text-align: center;
-}
-
-.project_logos a:link, a:visited, a:active {
-  color: #000000;
-  text-decoration: none;
-}
-
-.project_logos a:hover {
-  text-decoration: underline;
 }
 
 .project_logos {
@@ -97,7 +85,7 @@ h4 {
 footer {
   background-color: #c4c4c4;
   bottom: 0;
-  font-color: #FFFFFF;
+  color: #FFFFFF;
   height: 75px;
   padding-top: 0.5rem;
   text-align: center;
@@ -105,22 +93,30 @@ footer {
 }
 
 .social_media {
+  color: #FFFFFF;
   list-style-type: none;
   margin: 10px;
-  font-color: #FFFFFF;
   font-size: 1.25rem;
 }
 
 .social_media li{
+  color: #FFFFFF;
   display: inline-block;
   padding: 2px;
 }
 
-.social_media a:link, a:visited, a:active, a:hover {
-  color: #FFFFFF;
+@media screen and (min-width: 768px) {
+  .container {
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    overflow: hidden;
+  }
 }
 
-@media screen and (min-width: 500px, max-width: 1042px){
-  header.mdl-layout__header{
-    display: flex;
+@media screen and (min-width: 1025px){
+  .container {
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    overflow: hidden;
+  }
 }
