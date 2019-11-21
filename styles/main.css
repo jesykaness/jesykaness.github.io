@@ -2,20 +2,14 @@ html {
   font-size: 10px;
 }
 
-.container {
-  background-color: #FFFFFF;
-  margin: 0 auto;
-  overflow: hidden;
-  width: 100%;
-}
-
 body {
   background-color: #FFFFFF;
-  margin-left: 165px;
-  margin-right: 165px;
+  margin: 0 auto;
+  max-width: 1020px;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-style: normal;
+  justify-content: center;
   line-height: normal;
 }
 
@@ -38,46 +32,62 @@ h4 {
   font-size: 1rem;
 }
 
-.logo {
-  height: 75px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
 .navigation {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  text-align: center;
+  width: 100%;
+}
+.logo {
+  float: left;
+  height: 75px;
+}
+.navigation_list {
   float: right;
   height: 20px;
   list-style-type: none;
-  padding-top: 55px;
-  width: 300px;
+  margin-top: 10px;
+  width: 380px;
 }
 
 .navigation li {
   display: inline-block;
   font-size: 14px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .hello {
-  padding-bottom: 50px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  margin: 0 auto;
+  max-width: 550px;
+}
+.intro_text {
+  justify-content: center;
 }
 
 .projects {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
 .project_logos {
+  justify-content: center;
   list-style-type: none;
 }
 
 .project_logos img {
   height: 250px;
-  padding: 15px;
+  margin: 15px;
 }
 
 .project_logos li {
   display: inline-block;
+  margin-bottom: 20px;
+}
+
+.white_bkgrd {
+  border: 1px solid #545454;
 }
 
 footer {
@@ -110,18 +120,71 @@ footer {
   padding: 2px;
 }
 
-@media screen and (min-width: 768px) {
-  .container {
-    background-color: #FFFFFF;
+@media screen and (max-width: 767px) {
+  .hello, .projects {
+    justify-content: center;
     margin: 0 auto;
     overflow: hidden;
+    width: 85%;
+  }
+  .navigation, {
+    float: none;
+    margin-top: 40px;
+    padding-bottom: 10px;
+  }
+  .logo {
+    float: none;
+    margin: 20px;
+  }
+  .navigation_list {
+    float: none;
+    width: 360px;
+  }
+  .navigation li {
+    padding: 10px;
+  }
+  .hello {
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  .projects {
+    padding-bottom: 20px;
+  }
+  .project_logos img {
+    height: 100px;
   }
 }
 
-@media screen and (min-width: 1025px){
-  .container {
-    background-color: #FFFFFF;
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .hello, .projects {
+    justify-content: center;
     margin: 0 auto;
     overflow: hidden;
+    width: 100%;
+  }
+  .logo {
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .navigation_list {
+    float: right;
+    margin-right: 50px;
+    margin-top: 63px;
+    width: 320px;
+  }
+  .navigation li {
+    padding: 10px;
+  }
+  .hello {
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+  .projects {
+    max-width: 500px;
+    padding-bottom: 65px;
+  }
+  .project_logos img {
+    height: 125px;
   }
 }
