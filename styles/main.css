@@ -29,7 +29,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .navigation {
@@ -94,8 +94,8 @@ footer {
   background-color: #545454;
   bottom: 0;
   color: #FFFFFF;
-  height: 75px;
-  padding-top: 0.5rem;
+  height: 90px;
+  padding-top: 0.6rem;
   text-align: center;
   width: 100%;
 }
@@ -108,7 +108,7 @@ footer {
   color: #FFFFFF;
   list-style-type: none;
   margin: 10px;
-  font-size: 1.25rem;
+  font-size: 1.8rem;
 }
 
 .social_media i {
@@ -117,7 +117,7 @@ footer {
 
 .social_media li{
   display: inline-block;
-  padding: 2px;
+  padding: 6px;
 }
 
 @media screen and (max-width: 767px) {
