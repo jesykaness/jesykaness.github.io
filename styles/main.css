@@ -4,13 +4,16 @@ html {
 
 body {
   background-color: #FFFFFF;
-  margin: 0 auto;
-  max-width: 1020px;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-style: normal;
+}
+
+main {
   justify-content: center;
   line-height: normal;
+  margin: 0 auto;
+  max-width: 1020px;
 }
 
 h1 {
@@ -78,8 +81,8 @@ h4 {
 }
 
 .project_logos img {
-  height: 250px;
   margin: 15px;
+  max-height: 230px;
 }
 
 .project_logos li {
