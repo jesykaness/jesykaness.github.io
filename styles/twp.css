@@ -234,9 +234,9 @@ main {
   .twp_hero {
     padding-top: 30px;
   }
-  .intro_images img {
-    margin: 0 auto;
-    width: 70%;
+  .intro_images, .research_a_images img {
+    margin-bottom: 20px;
+    width: 300px;
   }
   .wireframing_images_b img {
     justify-content: center;
