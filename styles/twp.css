@@ -34,10 +34,10 @@ main {
   justify-content: center;
   margin-bottom: 20px;
 }
-.intro_images {
+.intro_images img {
   margin-left: 20px;
   margin-bottom: 20px;
-  width: 100%;
+  width: 300px;
 }
 .intro_text {
   padding-bottom: 20px;
@@ -51,11 +51,11 @@ main {
   justify-content: center;
   margin-bottom: 20px;
 }
-.research_a_images {
+.research_a_images img{
   margin-left: 30px;
   margin-top: 60px;
   margin-bottom: 60px;
-  width: 100%;
+  width: 400px;
 }
 .research_a_text {
   padding-bottom: 10px;
@@ -69,11 +69,11 @@ main {
   justify-content: center;
   margin-bottom: 20px;
 }
-.research_b_images {
+.research_b_images img{
   margin-right: 30px;
   margin-bottom: 20px;
   margin-top: 30px;
-  width: 100%;
+  width: 300px;
 }
 .research_b_text {
   padding-bottom: 20px;
@@ -90,10 +90,10 @@ main {
 .userflows_a_text {
   width: 100%;
 }
-.userflows_a_images {
+.userflows_a_images img {
   margin-left: 50px;
   margin-bottom: 20px;
-  width: 100%;
+  width: 300px;
 }
 
 .twp_userflows_b {
@@ -116,8 +116,8 @@ main {
   justify-content: center;
   padding-bottom: 50px;
 }
-.wireframing_images {
-  width: 100%;
+.wireframing_images img{
+  width: 340px;
 }
 .wireframing_text {
   width: 100%;
@@ -214,7 +214,7 @@ main {
 }
 
 @media screen and (max-width: 767px) {
-  .twp_hero, .twp_intro, .twp_research_a, .twp_research_b, .twp_userflows_a, .twp_wireframing, .twp_branding_a, .twp_branding_b, .twp_pptut_a, .twp_pptut_b, .twp_pptut_c, .twp_conclusion {
+  .twp_hero, .twp_intro, .twp_research_a, .twp_research_b, .twp_userflows_a, .twp_userflows_b, .twp_wireframing, .twp_branding_a, .twp_branding_b, .twp_pptut_a, .twp_pptut_b, .twp_pptut_c, .twp_conclusion {
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
@@ -225,7 +225,7 @@ main {
     margin: 0 auto;
     width: 100%;
   }
-  .research_a_images, .research_b_images, .userflows_a_images, .twp_userflows_b, .wireframing_images, .branding_a_images, .branding_b_images, .conclusion_images img {
+  .hero_image img, .intro_images img, .research_a_images img, .research_b_images img, .userflows_a_images img, .userflows_b_images img, .wireframing_images img, .wireframing_images_b img, .branding_a_images img, .branding_b_images img, .pptut_a_images img, .pptut_b_images img, .pptut_images_c img, .conclusion_images img {
     justify-content: center;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -233,57 +233,6 @@ main {
   }
   .twp_hero {
     padding-top: 30px;
-  }
-  .intro_images, .research_a_images img {
-    margin-bottom: 20px;
-    width: 300px;
-  }
-  .wireframing_images_b img {
-    justify-content: center;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    width: 100%;
-  }
-  .branding_images {
-    justify-content: center;
-    margin: 0 auto;
-    width: 100%;
-  }
-  .branding_a_images img {
-    width: 100%;
-  }
-  .hero_image img {
-    width: 100%;
-  }
-  .userflow_a_images img {
-    width: 100%;
-  }
-  .userflow_b_images img {
-    justify-content: center;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    width: 100%;
-  }
-  .branding_a_images img {
-    width: 100%;
-  }
-  .pptut_a_images, .pptut_images_c img {
-    justify-content: center;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    width: 100%;
-  }
-  .pptut_b_images img{
-    justify-content: center;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    width: 100%;
-  }
-  .branding_b_images img {
-    justify-content: center;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    width: 100%;
   }
 }
 
