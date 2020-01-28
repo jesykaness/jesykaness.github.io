@@ -37,7 +37,7 @@ i {
 .about_text {
   margin: 0 auto;
   max-width: 600px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 @media screen and (max-width: 767px) {
@@ -46,7 +46,9 @@ i {
     margin: 0 auto;
     width: 85%;
   }
-
+  .about_hero {
+    margin-top: 50px;
+  }
   .hero_image img {
     width: 100%;
   }

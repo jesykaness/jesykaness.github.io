@@ -209,7 +209,7 @@ main {
 }
 .conclusion_images img {
   border: 1px solid #545454;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
   width: 1020px;
 }
 
@@ -236,9 +236,37 @@ main {
   }
 }
 
-@media screen and (min-width: 764px) and (max-width: 1024px) {
-  .container {
-    background-color: #FFFFFF;
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .twp_hero, .twp_intro, .twp_research_a, .twp_research_b, .twp_userflows_a, .twp_userflows_b, .twp_wireframing, .twp_branding_a, .twp_branding_b, .twp_pptut_a, .twp_pptut_b, .twp_pptut_c, .twp_conclusion {
+    justify-content: center;
     margin: 0 auto;
+    max-width: 900px;
+  }
+  .twp_hero {
+    margin-top: 100px;
+  }
+  .hero_image img {
+    max-width: 900px;
+  }
+  .userflows_b_images img {
+    width: 255px;
+  }
+  .wireframing_images img {
+    width: 320px;
+  }
+  .wireframing_images_b img {
+    width: 250px;
+  }
+  .branding_b_images img, .pptut_b_images img {
+    width: 435px;
+  }
+  .pptut_images_c img {
+    width: 280px;
+  }
+  .twp_conclusion {
+    grid-template-columns: 900px;
+  }
+  .conclusion_images img {
+    width: 900px;
   }
 }
