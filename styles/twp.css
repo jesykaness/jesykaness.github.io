@@ -1,7 +1,6 @@
 .twp_hero {
   margin: 0 auto;
-  max-width: 1020px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   margin-top: 100px;
 }
 .hero_text {
@@ -223,6 +222,7 @@
   .twp_hero, .twp_intro, .twp_research_a, .twp_research_b, .twp_userflows_a, .twp_userflows_b, .twp_wireframing, .twp_branding_a, .twp_branding_b, .twp_pptut_a, .twp_pptut_b, .twp_pptut_c, .twp_conclusion {
     justify-content: center;
     margin: 0 auto;
+    padding-bottom: 20px;
     max-width: 85%;
   }
   .twp_hero {
@@ -244,6 +244,7 @@
   .branding_b_images img, .pptut_b_images img {
     width: 47%;
   }
+
   .pptut_images_c img {
     width: 31%;
   }

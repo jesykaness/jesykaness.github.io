@@ -1,0 +1,75 @@
+.pioti_hero {
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.pioti_intro {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-gap: 20px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.intro_images {
+  margin: 0 auto;
+}
+.intro_images img {
+  width: 300px;
+}
+
+.pioti_app {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.pioti_imgtxt, .gps_imgtxt, .timer_imgtxt, .pin_imgtxt {
+  text-align: center;
+}
+.pioti_imgtxt img, .gps_imgtxt img, .timer_imgtxt img, .pin_imgtxt img {
+  width: 240px;
+}
+
+@media screen and (max-width: 767px) {
+  .pioti_hero, .pioti_intro, .pioti_app {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 85%;
+  }
+
+  .pioti_hero {
+    margin-top: 50px;
+  }
+
+  .pioti_app {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .pioti_hero, .pioti_intro, .pioti_app {
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 85%;
+    padding-bottom: 30px;
+  }
+  .pioti_app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  .pioti_imgtxt img, .gps_imgtxt img, .timer_imgtxt img, .pin_imgtxt img {
+    width: 80%;
+  }
+  .pioti_hero {
+    margin-bottom: 50px;
+    margin-top: 100px;
+  }
+}
