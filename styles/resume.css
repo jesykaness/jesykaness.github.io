@@ -229,6 +229,10 @@ footer {
   .project_logos img {
     height: 125px;
   }
+
+  .rs_intro {
+    margin-top: 80px;
+  }
   .rs_content {
     margin-bottom: 100px;
   }

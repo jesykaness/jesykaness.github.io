@@ -1,0 +1,121 @@
+.toqos_hero {
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.toqos_intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.intro_image img {
+  margin-bottom: 20px;
+  width: 500px;
+}
+.intro_miniimages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  justify-content: center;
+}
+.intro_miniimages img {
+  width: 152px;
+}
+
+.toqos_3x2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.toqos_3x2 img {
+  margin-bottom: 20px;
+  width: 310px;
+}
+
+.toqos_2x1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.toqos_2x1 img {
+  margin-bottom: 20px;
+  width: 482.5px;
+}
+
+.toqos_3x1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.toqos_3x1 img {
+  margin-bottom: 20px;
+  width: 310px;
+}
+
+.toqos_newsletters {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.newsletter_images img {
+  margin-bottom: 20px;
+  width: 482.5px;
+}
+
+.toqos_newsletters_b {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.toqos_newsletters_b img {
+  margin-bottom: 80px;
+  width: 320px;
+}
+
+@media screen and (max-width: 767px) {
+  .toqos_hero, .toqos_intro, .toqos_3x2, .toqos_2x1, .toqos_3x1, .toqos_newsletters, .toqos_newsletters_b {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 85%;
+  }
+  .intro_image img, .intro_miniimages img, .toqos_3x2 img, .toqos_2x1 img, .toqos_3x1 img, .newsletter_images img, .toqos_newsletters_b img {
+    width: 100%;
+  }
+
+  .toqos_hero {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .toqos_hero, .toqos_intro, .toqos_3x2, .toqos_2x1, .toqos_3x1, .toqos_newsletters, .toqos_newsletters_b {
+      justify-content: center;
+      margin: 0 auto;
+      padding-bottom: 30px;
+      max-width: 85%;
+    }
+
+    .intro_image img, .intro_miniimages img, .toqos_3x2 img, .toqos_2x1 img, .toqos_3x1 img, .newsletter_images img, .toqos_newsletters_b img {
+      width: 100%;
+    }
+
+    .toqos_hero {
+      margin-top: 80px;
+    }
+}
