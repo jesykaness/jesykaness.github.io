@@ -1,0 +1,147 @@
+i {
+  font-style: italic;
+}
+
+.humanize_hero {
+  margin: 0 auto;
+  max-width: 1020px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.humanize_intro {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-gap: 20px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.intro_images, .borgy_images {
+  margin: 0 auto;
+}
+.intro_images img {
+  margin-bottom: 20px;
+  width: 260px;
+}
+
+.humanize_yourself {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.borgy_images img {
+  margin-left: 50px;
+  width: 340px;
+}
+
+.humanize_phase01 {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-gap: 40px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.phase01_images img {
+  margin-bottom: 20px;
+  width: 420px;
+}
+
+.humanize_phase02 {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-gap: 50px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.phase02_images img {
+  margin-top: 5px;
+  width: 420px;
+}
+
+.humanize_googlechrome {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-gap: 30px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.googlechrome_images img {
+  width: 195px;
+}
+
+.humanize_mobile {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-gap: 50px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.mobile_images img {
+  margin-bottom: 50px;
+  width: 420px;
+}
+
+@media screen and (max-width: 767px) {
+  .humanize_hero, .humanize_intro, .humanize_yourself, .humanize_phase01, .humanize_phase02, .humanize_googlechrome, .humanize_mobile {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin: 0 auto;
+    width: 85%;
+  }
+
+  .intro_images img, .borgy_images img, .phase01_images img, .phase02_images img, .googlechrome_images img, .mobile_images img {
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .humanize_hero {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .humanize_mobile {
+    margin-bottom: 50px;
+  }
+
+  .humanize_intro, .humanize_yourself, .humanize_phase01, .humanize_googlechrome {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .humanize_hero, .humanize_intro, .humanize_yourself, .humanize_phase01, .humanize_phase02, .humanize_googlechrome, .humanize_mobile {
+      justify-content: center;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      max-width: 85%;
+    }
+
+    .intro_images img {
+      width: 85%;
+    }
+
+    .borgy_images img {
+      margin-left: 30px;
+      width: 90%;
+    }
+
+    .humanize_hero {
+      margin-top: 50px;
+      padding-bottom: 10px;
+    }
+
+    .phase01_images img, .phase02_images img, .mobile_images img {
+      width: 100%;
+    }
+
+    .googlechrome_images img {
+      width: 90%;
+    }
+}

@@ -1,17 +1,3 @@
-body {
-  background-color: #FFFFFF;
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-}
-
-main {
-  justify-content: center;
-  line-height: normal;
-  margin: 0 auto;
-  max-width: 1020px;
-}
-
 .twp_hero {
   margin: 0 auto;
   max-width: 1020px;
@@ -204,9 +190,6 @@ main {
   padding-bottom: 50px;
   width: 100%;
 }
-.conclusion_images {
-  padding-bottom: 50px;
-}
 .conclusion_images img {
   border: 1px solid #545454;
   margin-bottom: 100px;
@@ -240,33 +223,38 @@ main {
   .twp_hero, .twp_intro, .twp_research_a, .twp_research_b, .twp_userflows_a, .twp_userflows_b, .twp_wireframing, .twp_branding_a, .twp_branding_b, .twp_pptut_a, .twp_pptut_b, .twp_pptut_c, .twp_conclusion {
     justify-content: center;
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 85%;
   }
   .twp_hero {
     margin-top: 100px;
   }
   .hero_image img {
-    max-width: 900px;
+    max-width: 100%;
   }
-  .userflows_b_images img {
-    width: 255px;
-  }
-  .wireframing_images img {
-    width: 320px;
+  .intro_images img, .research_a_images img, .research_b_images img, .userflows_a_images img, .wireframing_images img, .branding_a_images img, .pptut_a_images img {
+    width: 85%;
   }
   .wireframing_images_b img {
-    width: 250px;
+    width: 48%;
+  }
+  .userflows_b_images img {
+    justify-content: center;
+    width: 26%;
   }
   .branding_b_images img, .pptut_b_images img {
-    width: 435px;
+    width: 47%;
   }
   .pptut_images_c img {
-    width: 280px;
+    width: 31%;
   }
   .twp_conclusion {
-    grid-template-columns: 900px;
+    grid-template-columns: 100%;
   }
   .conclusion_images img {
-    width: 900px;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  .twp_hero, .twp_intro, .twp_research_a, .twp_research_b, .twp_userflows_a, .twp_userflows_b, .twp_wireframing, .twp_branding_a, .twp_branding_b, .twp_pptut_a, .twp_pptut_b, .twp_pptut_c, .twp_conclusion {
+    margin-bottom: 20px;
   }
 }

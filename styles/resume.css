@@ -100,6 +100,10 @@ a.current:link {
   border: 1px solid #545454;
 }
 
+a:hover h5 {
+  color: #2B2B2B;
+}
+
 footer {
   background-color: #545454;
   bottom: 0;
@@ -179,7 +183,7 @@ footer {
     height: 100px;
   }
   .rs_intro {
-    margin-top: 20px;
+    margin-top: 50px;
   }
   .rs_content {
     display: grid;
