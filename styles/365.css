@@ -1,0 +1,80 @@
+.staging_hero {
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.staging_statistics, .staging_intero, .staging_rewards, .staging_complete, .staging_completeflyer {
+  justify-content: center;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.staging_statistics img, .intero_images img {
+  margin: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 480px;
+}
+.rewards_images img, .completeflyer_images img {
+  margin: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 1020px;
+}
+.staging_complete {
+  max-width: 1020px;
+}
+.complete_images img {
+  margin: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 140px;
+}
+.staging_completeflyer {
+  margin-bottom: 80px
+}
+
+@media screen and (max-width: 767px) {
+  .staging_hero, .staging_statistics, .staging_intero, .staging_rewards, .staging_complete, .staging_completeflyer {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    width: 85%;
+  }
+  .staging_statistics img, .intero_images img {
+    width: 100%;
+  }
+  .rewards_images img, .completeflyer_images img {
+    width: 100%;
+  }
+  .complete_images img {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .staging_hero {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .staging_hero, .staging_statistics, .staging_intero, .staging_rewards, .staging_complete, .staging_completeflyer {
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    max-width: 85%;
+  }
+  .staging_statistics img, .intero_images img {
+    width: 100%;
+  }
+  .rewards_images img, .completeflyer_images img {
+    width: 100%;
+  }
+  .staging_hero {
+    margin-top: 80px;
+  }
+  .staging_completeflyer {
+    margin-bottom: 80px;
+  }
+}
