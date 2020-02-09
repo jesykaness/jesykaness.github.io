@@ -14,21 +14,24 @@
   margin-bottom: 20px;
   margin-top: 20px;
   width: 480px;
+  -webkit-box-shadow: 0 4px 6px #545454;
+  -moz-box-shadow: 0 4px 6px #545454;
 }
 .rewards_images img, .completeflyer_images img {
   margin: 10px;
   margin-bottom: 20px;
-  margin-top: 20px;
-  width: 1020px;
+  margin-top: 50px;
+  width: 700px;
+  -webkit-box-shadow: 0 4px 6px #545454;
+  -moz-box-shadow: 0 4px 6px #545454;
 }
-.staging_complete {
-  max-width: 1020px;
+.complete_images {
+  max-width: none;
 }
 .complete_images img {
   margin: 10px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  height: 140px;
+  padding: 50px 10px 50px 10px;
+  height: 106px;
 }
 .staging_completeflyer {
   margin-bottom: 80px

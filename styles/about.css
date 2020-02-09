@@ -17,17 +17,36 @@ i {
 }
 
 .hero_image img {
-  filter: opacity(90%);
   object-fit: cover;
   overflow: hidden;
-  width: 100%;
-
+  width: 280px;
+  background: #ffffff;
+  margin-left: 50px;
+  padding: 15px 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-shadow: 0 4px 6px #545454;
+  -moz-box-shadow: 0 4px 6px #545454;
+  box-shadow: 0 4px 6px #545454;
 }
 
-.about_text {
+.image_right {
+  -webkit-transform: rotate(6deg);
+  -moz-transform: rotate(6deg);
+}
+.image_left {
+  -webkit-transform: rotate(-6deg);
+  -moz-transform: rotate(-6deg);
+}
+
+.hero_text {
   margin: 0 auto;
   max-width: 600px;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
+}
+
+.hero_text h1 {
+  text-align: left;
 }
 
 @media screen and (max-width: 767px) {
