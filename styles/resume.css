@@ -32,12 +32,17 @@ h2 {
 
 h3 {
   color: #2B2B2B;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   padding-bottom: 3px;
 }
 
-h4 {
+p {
   color: #808080;
+  font-size: 1.4rem;
+  line-height: 1.6em;
+}
+
+h4 {
   font-size: 1.2rem;
 }
 
@@ -61,12 +66,12 @@ h5 {
   height: 20px;
   list-style-type: none;
   margin-top: 30px;
-  width: 380px;
+  width: 400px;
 }
 
 .navigation li {
   display: inline-block;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   padding-left: 25px;
   text-transform: uppercase;
 }
@@ -78,6 +83,10 @@ a.current:link {
 .projects {
   margin-bottom: 40px;
   text-align: center;
+}
+
+.projects_title {
+  padding: 40px;
 }
 
 .project_logos {
@@ -108,14 +117,14 @@ footer {
   background-color: #545454;
   bottom: 0;
   color: #FFFFFF;
-  height: 90px;
+  height: 120px;
   padding-top: 0.6rem;
   text-align: center;
   width: 100%;
 }
 
 .thanks {
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .social_media {
@@ -132,6 +141,32 @@ footer {
 .social_media li {
   display: inline-block;
   padding: 6px;
+}
+
+.copyright {
+  padding-top: 20px;
+}
+.copyright h4 {
+  font-size: 1rem;
+}
+
+#myBtn {
+  background-color: #FFFFFF;
+  border: 1px solid #2B2B2B;
+  border-radius: 50%;
+  bottom: 60px;
+  float: right;
+  font-family: "Verdana";
+  font-size: 18px;
+  font-weight: bold;
+  height: 40px;
+  padding: 10px;
+  position: fixed;
+  right: 60px;
+  width: 40px;
+}
+#myBtn:hover {
+  background-color: #2B2B2B;
 }
 
 .rs_intro {
