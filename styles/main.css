@@ -114,31 +114,42 @@ i {
 }
 
 .projects_title {
-  padding: 40px;
+  padding-bottom: 20px;
 }
 
-.project_logos {
-  padding: 0px;
-  justify-content: center;
-  list-style-type: none;
+.project_list p {
+  margin: 0;
+}
+.project_list h1 {
+  font-size: 2.7rem;
+  font-weight: lighter;
+  padding: 5px 0px 5px 0px;
+  text-align: left;
+}
+.project_list h2 {
+  font-size: 1.8rem;
 }
 
-.project_logos img {
+.project_list img {
   margin: 15px;
-  max-height: 230px;
+  height: 200px;
 }
 
-.project_logos li {
-  display: inline-block;
-  margin-bottom: 20px;
+.project_list li {
+  list-style: none;
+  padding: 30px;
 }
 
-.white_bkgrd {
-  border: 1px solid #545454;
-}
 
-a:hover h3 {
-  color: #2B2B2B;
+
+.project_twp, .project_humanize, .project_pioti, .project_jtnlaw, .project_toqos, .project_365 {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 40px;
+  justify-content: center;
+  margin: none;
+  text-align: left;
 }
 
 footer {

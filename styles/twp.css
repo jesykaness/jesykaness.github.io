@@ -21,7 +21,7 @@
 .link_list li {
   display: inline-block;
   font-size: 1.5rem;
-  padding: 60px 50px 100px 50px;
+  padding: 60px 50px 10px 50px;
   text-transform: uppercase;
 }
 
@@ -100,7 +100,7 @@
   height: 120px;
 }
 
-a p {
+.user_personas a p, .us_link a p {
   text-decoration: underline;
 }
 
@@ -216,7 +216,7 @@ a p {
 .before_after img {
   border: 1px solid #545454;
   margin: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 100px;
   height: 210px;
   vertical-align: top;
 }
@@ -226,6 +226,15 @@ a p {
   width: 100%;
 }
 
+.final_product {
+  text-align: center;
+}
+.final_product li {
+  display: inline-block;
+  font-size: 1.5rem;
+  padding: 60px 50px 100px 50px;
+  text-transform: uppercase;
+}
 
 @media screen and (max-width: 767px) {
   .twp_hero, .twp_intro, .twp_research_a, .twp_research_b, .twp_userflows_a, .twp_userflows_b, .twp_wireframing, .twp_branding_a, .twp_branding_b, .twp_pptut_a, .twp_pptut_b, .twp_pptut_c, .twp_conclusion {
