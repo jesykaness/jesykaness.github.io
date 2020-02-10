@@ -4,13 +4,13 @@
   margin-top: 100px;
 }
 .hero_text {
-  margin-bottom: 20px;
+  padding-bottom: 100px;
   margin: 0 auto;
   width: 665px;
 }
 .hero_image img {
   margin: 0 auto;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
   width: 1000px;
 }
 
@@ -21,7 +21,7 @@
 .link_list li {
   display: inline-block;
   font-size: 1.5rem;
-  padding: 80px 50px 100px 50px;
+  padding: 60px 50px 100px 50px;
   text-transform: uppercase;
 }
 
@@ -38,60 +38,97 @@
   width: 320px;
 }
 .intro_text {
-  padding-bottom: 20px;
+  padding-bottom: 100px;
   width: 100%;
 }
 
-.twp_research_a {
-  display: grid;
-  grid-template-columns: 3fr 2fr;
-  grid-gap: 20px;
-  justify-content: center;
-  margin-bottom: 20px;
+.twp_research, .twp_wireframing {
+  padding-bottom: 100px;
 }
+.research_a_text h2, .userflows_text h2, .twp_wireframing h2, .twp_branding h2, .twp_pptut h2, .conclusion_text h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
 .research_a_images img{
-  margin-left: 30px;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  width: 400px;
+  margin: 0 auto;
+  margin: 60px 20px 120px 20px;
+  height: 225px;
 }
 .research_a_text {
-  padding-bottom: 10px;
+  padding-bottom: 50px;
   width: 100%;
 }
 
-.twp_research_b {
-  display: grid;
-  grid-template-columns: 2fr 3fr;
-  grid-gap: 20px;
-  justify-content: center;
-  margin-bottom: 20px;
+.research_a_images, .research_b_images {
+  text-align: center;
 }
 .research_b_images img{
-  margin-right: 30px;
-  margin-bottom: 20px;
-  margin-top: 30px;
-  width: 300px;
+  height: 90px;
+  margin: 60px 80px 100px 80px;
 }
 .research_b_text {
   padding-bottom: 20px;
   width: 100%;
 }
 
-.twp_userflows_a {
+.research_c_text, .research_d_text {
+  margin-bottom: 80px;
+}
+
+.user_personas {
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   justify-content: center;
-  margin-bottom: 50px;
+  padding-bottom: 100px;
+  max-width: none;
 }
-.userflows_a_text {
-  width: 100%;
+.millenial_traveler, .business_frequent_flyer, .family_trip_planner {
+  align-items: center;
+  background-color: #409A8F;
+  border: 1px solid #545454;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  justify-content: center;
 }
-.userflows_a_images img {
+.millenial_traveler p, .millenial_traveler h2, .business_frequent_flyer p, .business_frequent_flyer h2, .family_trip_planner p, .family_trip_planner h2 {
+  color: #FFFFFF;
+}
+.info_pic img {
+  padding: 20px;
+  height: 120px;
+}
+
+a p {
+  text-decoration: underline;
+}
+
+.user_stories {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.user_new, .user_returning {
+  border: 1px solid #545454;
+  display: grid;
+  grid-template-columns: 7fr 1fr;
+  grid-gap: 20px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px;
+  width: 420px;
+}
+
+.userflows_text, .userflows_b_text {
+  padding-bottom: 80px;
+}
+.userflows_images img {
   margin-left: 50px;
-  margin-bottom: 20px;
-  width: 300px;
+  margin-bottom: 100px;
+  height: 250px;
 }
 
 .twp_userflows_b {
@@ -106,70 +143,63 @@
   vertical-align: top;
   width: 290px;
 }
-
-.twp_wireframing {
-  display: grid;
-  grid-template-columns: 2fr 3fr;
-  grid-gap: 20px;
-  justify-content: center;
-  padding-bottom: 50px;
+.wireframing_images, .wireframing_images_b {
+  text-align: center;
 }
 .wireframing_images img{
+  padding-bottom: 80px;
+  padding-top: 60px;
   width: 340px;
 }
 .wireframing_text {
+  padding-bottom: 50px;
   width: 100%;
 }
 .wireframing_images_b img {
   border: 1px solid #545454;
-  margin-bottom: 20px;
+  margin: 50px;
   width: 285px;
 }
-
-.twp_branding_a {
-  display: grid;
-  grid-template-columns: 3fr 2fr;
-  grid-gap: 20px;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-.branding_a_text {
-  width: 100%;
+.branding_a_text, .branding_b_text, .branding_c_text, .pptut_a_text, .pptut_b_text {
+  margin-bottom: 80px;
 }
 .branding_a_images {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grip-gap: 5px;
-  justify-content: center;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  text-align: center;
 }
 .branding_a_images img{
   border: 1px solid #545454;
+  margin: 20px;
+  margin-bottom: 80px;
   width: 180px;
 }
 
-.twp_branding_b {
+.twp_styleguide, .twp_styleguide_b {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
-.branding_b_images img {
+.twp_styleguide img {
   border: 1px solid #545454;
   margin: 5px;
   width: 495px;
 }
+.twp_styleguide_b img {
+  border: 1px solid #545454;
+  margin: 5px;
+  margin-bottom: 80px;
+  width: 242px;
+}
 
-.twp_pptut_a {
+.pptut_a_images {
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   justify-content: center;
   padding-bottom: 50px;
 }
 .pptut_a_images img {
   border: 1px solid #545454;
-  width: 95%;
+  width: 150px;
 }
 
 .twp_pptut_b, .twp_pptut_c {
@@ -177,36 +207,25 @@
   justify-content: center;
   margin-bottom: 20px;
 }
-.pptut_b_images img {
+.before_after {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.before_after img {
   border: 1px solid #545454;
   margin: 5px;
-  margin-bottom: 20px;
-  width: 495px;
+  margin-bottom: 10px;
+  height: 210px;
   vertical-align: top;
 }
 
-.pptut_images_c img {
-  border: 1px solid #545454;
-  margin: 5px;
-  margin-bottom: 20px;
-  width: 324px;
-}
-
-.twp_conclusion {
-  display: grid;
-  grid-template-columns: 1020px;
-  justify-content: center;
-  margin-bottom: 20px;
-}
 .conclusion_text {
   padding-bottom: 50px;
   width: 100%;
 }
-.conclusion_images img {
-  border: 1px solid #545454;
-  margin-bottom: 100px;
-  width: 1020px;
-}
+
 
 @media screen and (max-width: 767px) {
   .twp_hero, .twp_intro, .twp_research_a, .twp_research_b, .twp_userflows_a, .twp_userflows_b, .twp_wireframing, .twp_branding_a, .twp_branding_b, .twp_pptut_a, .twp_pptut_b, .twp_pptut_c, .twp_conclusion {

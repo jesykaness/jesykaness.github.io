@@ -42,6 +42,14 @@ h4 {
   font-size: 1.2rem;
 }
 
+b {
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+}
+
 .navigation {
   padding-bottom: 50px;
   padding-top: 50px;
