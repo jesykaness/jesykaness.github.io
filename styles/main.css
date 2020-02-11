@@ -117,6 +117,15 @@ i {
   padding-bottom: 20px;
 }
 
+.project_twp, .project_pioti, .project_humanize, .project_toqos, .project_365, .project_jtnlaw {
+  padding: 20px;
+}
+.project_twp:hover, .project_pioti:hover, .project_humanize:hover, .project_toqos:hover, .project_365:hover, .project_jtnlaw:hover {
+  -webkit-box-shadow: 0 6px 8px #545454;
+  -moz-box-shadow: 0 6px 8px #545454;
+  box-shadow: 0 6px 8px #545454;
+}
+
 .project_list p {
   margin: 0;
 }
@@ -138,6 +147,10 @@ i {
 .project_list li {
   list-style: none;
   padding: 30px;
+}
+
+.project_twp a:hover {
+
 }
 
 .project_twp, .project_humanize, .project_pioti, .project_jtnlaw, .project_toqos, .project_365 {
@@ -192,6 +205,7 @@ footer {
   border: 1px solid #2B2B2B;
   border-radius: 50%;
   bottom: 60px;
+  color: #545454;
   float: right;
   font-family: "Verdana";
   font-size: 18px;
