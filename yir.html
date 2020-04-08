@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jessica Cheng | Portfolio | You in Review</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/jessica_logo-03.png" type="image/x-icon"/ >
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/yir.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156591305-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-156591305-1');
+    </script>
+  </head>
+  <body>
+    <main>
+      <div class="navigation" id="top">
+        <a href="index.html">
+        <img class="logo" src="images/jessica_logo-04.png">
+        </a>
+        <ul class="navigation_list">
+          <li>
+            <a class="current" href="#project_section">Projects</a>
+          </li>
+          <li>
+            <a href="resume.html">Resume</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/jesykaness" target="_blank">Social</a>
+          </li>
+          <li>
+            <a href="/about.html">About</a>
+          </li>
+        </ul>
+      </div>
+      <section class="yir_hero">
+        <div class="hero_image">
+          <img src="images/yir/yir_hero.png" alt="you in review hero image">
+        </div>
+        <div class="yir_linklist">
+          <ul class="link_list">
+            <li>
+              <a href="#intro">Intro</a>
+            </li>
+            <li>
+              <a href="#research">Research</a>
+            </li>
+            <li>
+              <a href="#branding">Branding</a>
+            </li>
+            <li>
+              <a href="#conclusion">Conclusion</a>
+            </li>
+          </ul>
+        </div>
+        <div class="final_product">
+          <a href="https://www.figma.com/proto/U3lc85yhuJwe9V4X9SvNTf/Lifestyle-Tracker-App?node-id=86946%3A264&viewport=-762%2C397%2C0.436566025018692&scaling=scale-down" target="_blank">View Mobile Prototype</a>
+        </div>
+        <div class="yir_text" id="intro">
+          <h1>You in Review</h1>
+          <br><p>You in Review is an interactive lifestyle tracker that helps the user keep good habits by using push notifications to actively remind the user to stay on track.</p>
+          <br><p>Whether the user is trying to start a new good habit or kicking a bad one, You in Review uses an aesthetically pleasing interface with detailed insights and data to keep the user engaged and motivated. As someone who is into fitness and trying to maintain a healthier lifestyle, I was happy to design and develop a tool to help keep better habits.</p>
+        </div>
+      </section>
+      <section class="yir_intro">
+        <div class="intro_images">
+          <img src="images/yir_logo.png" alt="you in review square logo">
+        </div>
+        <div class="intro_text">
+          <br><h2>Problem</h2>
+          <p>I wanted to create a more universal lifestyle tracker instead of having multiple trackers designed for just one or a few habits. In order to show progress, I wanted it to be able to help the user consistently track, but doing so without overflowing the user with notifications. The app should be clean and simple, yet motivating in a way to have it seamlessly integrated into their lifestyle.</p>
+          <br><h2>Solution</h2>
+          <p>I wanted the app to be aesthetically pleasing enough to appeal to and motivate the user by using color. The more data that is inputted, the more detailed and color-filled the app gets. The user also gets a detailed insight of how their habits are for the day, week, month, and year. The more progress the user sees, the more likely they are to keep good habits.</p>
+          <br><h2>Deliverables</h2>
+          <section class="deliverables_column">
+            <div class="deliverables_a">
+              <p>// UX Research</p>
+              <p>// Wireframes and Mockups</p>
+              <p>// Branding</p>
+            </div>
+            <div class="deliverables_b">
+              <p>// Style Guide</p>
+              <p>// Usability and Preference Testing</p>
+              <p>// Figma Prototype</p>
+            </div>
+        </div>
+      </section>
+      <section class="yir_research" id="research">
+        <div class="research_a_text">
+          <h2>Research</h2>
+          <p>First I conducted an online survey to get a general consensus of lifestyle tracking. I  wanted to see if people who aren’t currently tracking anything would be interested in tracking if they had a good habit that they wanted to start, or a bad habit they wanted to get rid of. I found out that <b>70% of people who don’t currently track find it to be too much work.</b> However, all of them said they have some sort of habit they would like to start or stop, and 80% of them would be willing to try tracking.</p>
+          <br><p>I also wanted to see what kinds of habits people were tracking and how they were tracking it. I found out that the <b>most popular categories for tracking are: exercise, mood, and food or calorie intake.</b> Lastly, I wanted to see what kinds of problems people who are currently tracking run into, which brings me to a response that really stood out to me: : “I wish there was a way I was able to actually keep a habit, not give up after a week. I have ADHD and think that makes it a lot harder, it <b>feels like most apps are made for very neurotypical people</b>.” So, I really wanted to make sure this app wasn’t something people eventually forgot about.</p>
+        </div>
+        <div class="research_a_images">
+          <img src="images/yir/survey_02.JPG" alt="survey results for reasons for not tracking lifestyle">
+          <img src="images/yir/survey_01.JPG" alt="survey results for currently tracking categories">
+        </div>
+        <div class="research_b_text">
+          <p>I also took a look at some existing lifestyle tracking apps such as Fitbit, Habitica, and Simple Habit Tracker. I wanted to see what worked with each one  and what I could do differently.</p>
+          <br><p><b>Fitbit:</b> This is actually the current lifestyle tracker I use. It uses an extra tracking device, to track your steps, heart rate, workouts, and even sleep. Everything is recorded in the app, however, I find that I can go days without even looking at the app due to lack of notifications. There are a few days where I could have made my step goals, and a notification would have helped me reach my goal.</p>
+          <br><p><b>Habitica:</b>  This gives lifestyle tracking a new take and turns it into a game. You can level up and customize your avatar with the points you get as rewards for completing a habit. However, it only tracks daily habits, and users aren’t able to see long-term progression such as weekly, monthly, or yearly.</p>
+          <br><p><b>Simple Habit:</b> This app encourages users to practice good habits by going on a 21 day challenge. It is organized and color coded, but users are only able to view weekly and aren’t able to continue with the habit once the 21 day period is over.</p>
+        </div>
+        <div class="research_b_images">
+          <img src="images/yir/fitbit.png" alt="fitbit logo">
+          <img src="images/yir/habitica.png" alt="habitica logo">
+          <img src="images/yir/simplehabit.png" alt="simple habit logo">
+        </div>
+        <div class="research_c_text">
+          <p>With the information I gathered, I wanted to make a lifestyle tracker that combined some of these qualities. One, I wanted to make sure the user was <b>engaged and continually motivated</b>, and second, the user has to be able to <b>view their data and see their progress over time</b>.</p>
+        </div>
+        <div class="user_personas">
+          <div class="fitness_queen">
+            <div class="info_pic">
+              <img src="images/yir/laura.png" alt="laura's profile picture">
+            </div>
+            <div class="info_info">
+              <h2>Laura, 27</h2>
+              <p>Los Angeles, CA</p>
+              <p>Influencer</p>
+              <p>"Fitness Queen"</p>
+              <a href="images/yir/laura_up.png"><p>View User Persona</p></a>
+            </div>
+          </div>
+          <div class="back_on_track">
+            <div class="info_pic">
+              <img src="images/yir/mike.png" alt="mike's profile picture">
+            </div>
+            <div class="info_info">
+              <h2>Mike, 33</h2>
+              <p>Seattle, WA</p>
+              <p>Coffee Barista</p>
+              <p>"Back On Track"</p>
+              <a href="images/yir/mike_up.png"><p>View User Persona</p></a>
+            </div>
+          </div>
+          <div class="health_reminders">
+            <div class="info_pic">
+              <img src="images/yir/lily.png" alt="lily's profile picture">
+            </div>
+            <div class="info_info">
+              <h2>Lily, 54</h2>
+              <p>San Jose, CA</p>
+              <p>Grandmother</p>
+              <p>"Health Reminders"</p>
+              <a href="images/yir/lily_up.png"><p>View User Persona</p></a>
+            </div>
+          </div>
+        </div>
+        <div class="research_d_text">
+            <br><p>With these three people in mind, I created a list of tasks I wanted the app to be able to perform, and rated their importance from High to Low. Some of the higher importance tasks included: being able to create an account and sign in, start tracking from preset trackers, create new and edit trackers, and see progress data over the span of a day, week, month, year, or overall. Based on the importance of the task, I created a flow chart of the steps a user would have to take to achieve these tasks.</p>
+        </div>
+        <div class="user_stories">
+          <div class="user_new">
+            <div class="us_left">
+              <h2>Task - New User</h2>
+              <p>I want to create an account.</p>
+              <p>I want to start tracking a new good habit.</p>
+            </div>
+            <div class="us_right">
+              <h2><br></h2>
+              <p>High</p>
+              <p>High</p>
+            </div>
+          </div>
+          <div class="user_returning">
+            <div class="us_left">
+              <h2>Task - Returning User</h2>
+              <p>I want to see daily data.</p>
+              <p>I want to see the progress I have made.</p>
+            </div>
+            <div class="us_right">
+              <h2><br></h2>
+              <p>High</p>
+              <p>High</p>
+            </div>
+          </div>
+        </div>
+        <div class="us_link">
+          <a href="https://docs.google.com/spreadsheets/d/1SN4sdHYqnZsVrKXfAd-mr3vrwmIjoHwrg9rASElyk0w/edit?usp=sharing" align="center"><p>View User Stories</p></a>
+        </div>
+      </section>
+      <section class="yir_userflows">
+        <div class="userflows_text">
+          <h2>User Flows</h2>
+          <p>While there are a lot of things that needed to be implemented, the most important of the user flows would be the “notifications” flow. To keep the user actively engaged, we used notifications to remind the user to be mindful of keeping good habits. The user can interact with the notifications, bringing them directly to the app to track and input information, or to set a new reminder notification if it hasn't been completed. We also implemented morning, evening, and/or night check-ins, to help develop a routine to help keep the user on track.</p>
+        </div>
+        <div class="userflows_images">
+         <img src="images/yir/userflow_sitemap.png" alt="userflow sitemap">
+         <img src="images/yir/userflow_notifications.png" alt="userflow for organization">
+         <img src="images/yir/userflow_newhabit.png" alt="userflow for collaboration and making an itinerary">
+         <img src="images/yir/userflow_viewdata.png" alt="userflow for creating an account">
+        </div>
+        <div class="userflows_b_text">
+          <p>With the user flows planned out, I was able to start building the wireframe for the desktop website. I started ideating on paper, trying to get a general feel of what the website should look like, and to make sure all my frames checked off all the tasks of the flow chart. After that, it was easy to transfer my drawings onto Figma.</p>
+        </div>
+      </section>
+      <section class="yir_wireframing">
+        <h2>Wireframing & Usability Testing</h2>
+        <div class="wireframing_images">
+          <img src="images/yir/wireframe_sketch.jpg" alt="wifreframe sketches">
+          <img src="images/yir/wireframe_sketch-02.jpg" alt="wireframe sketches">
+        </div>
+        <div class="wireframing_text">
+          <p>To start planning out the app, I started off with a wireframe mockup of what I thought the app would look like. With the basic structure of the website, sans design, color, font, or images, I was able to hash out the general flow of how I wanted things to go.</p>
+        </div>
+        <div class="wireframing_images_b">
+          <img src="images/yir/wireframe_onboarding.png" alt="wireframe for onboarding screen">
+          <img src="images/yir/wireframe_landingpage.png" alt="wireframe for landing page for after morning check in">
+          <img src="images/yir/wireframe_today.png" alt="wireframe for today's goals">
+          <img src="images/yir/wireframe_datapage.png" alt="wireframe for data page">
+        </div>
+      </section>
+      <section class="yir_branding" id="branding">
+        <div class="branding_a_text">
+          <h2>Branding</h2>
+          <p>However, since my concept relies heavily on color, I knew I had to lock down an aesthetically pleasing brand. I started off by choosing a name for the app, ideating off words that centered around health, habits, and lifestyle. I decided on You in Review, which to me is on point with what the data presented in the app is about.</p>
+        </div>
+        <div class="branding_a_images">
+          <img src="images/yir/branding_sketch.jpg" alt="sketched logo ideations">
+          <img src="images/yir/yir_logo_full.png" alt="final horizontal logo">
+        </div>
+        <div class="branding_b_text">
+          <p>Next was choosing the color palette. I wanted it to have the colors that would be centered around the categories for the app and knew there would be at least 4 categories, so I chose two cool and two warm colors to be the main color palette. I also needed a main color that kept the whole thing together, so I decided on choosing the golden yellow since it seemed warm and inviting. With these colors in mind, it was easy to incorporate them in the logo. I also decided to incorporate an element directly from the app itself, and used that to create a make-shift circular border around the word “You”.</p>
+        </div>
+        <div class="yir_styleguide">
+          <img src="images/yir/styleguide_color.jpg" alt="styleguide for color">
+          <img src="images/yir/styleguide_typeface.jpg" alt="styleguide for typeface">
+        </div>
+        <div class="branding_c_text">
+          <p>After finalizing a logo and essentially a brand, I wanted to make sure everything was consistent with one another before “dressing up” the wireframe. Creating a style guide, or a set of standards allowed me to make sure I didn’t have slightly different variations of the same color, or font that kept on changing as you used the app. </p>
+        </div>
+      </section>
+      <section class="yir_pptut">
+        <div class="pptut_a_text">
+          <h2>Prototyping & Usability Testing</h2>
+          <p>With my Style Guide established, I was able to incorporate it into my wireframe and make a working prototype. After finalizing those changes, I wanted to make sure the prototype would be usable without any kinks, so I conducted some usability tests.</p>
+          <br><p>I ran tests by giving them instructions to complete the onboarding process, as well as navigate through the app to see goals and data. It was very interesting to see how different people perceived the design. Specifically between one who was more creative, and another who was more logical. It really put my design and intentions into perspective, and how I could tweak a few things to make sure I got my point across. </p>
+        </div>
+        <div class="pptut_a_images">
+          <div class="prototype_01">
+            <img src="images/yir/prototype_onboarding.png" alt="first prototype for onboarding page">
+            <img src="images/yir/prototype_landingpage.png" alt="first prototype for landing page after morning check in">
+            <img src="images/yir/prototype_today.png" alt="first prototype for today's goals">
+            <img src="images/yir/prototype_datapage.png" alt="first prototype for data page">
+          </div>
+        </div>
+        <div class="pptut_b_text">
+          <p>While the users can agree that the app is clean and aesthetically pleasing, there were some minor changes that needed to be made in order to make some buttons and its intended functions be more consistent and clear. Spacing issues was also a problem on some of the pages, where it was a little cluttered.</p>
+          </div>
+        <div class="before_after">
+          <div class="ba_datapage">
+            <img src="images/yir/datapage_before.png" alt="data page before usability testing">
+            <img src="images/yir/datapage_after.png" alt="data page after usability testing">
+          </div>
+          <div class="ba_onboarding">
+            <img src="images/yir/prototype_onboarding.png" alt="onboarding page before usability testing">
+            <img src="images/yir/prototype_onboarding_after.png" alt="onboarding page after usability testing">
+          </div>
+          <div class="ba_edittracker">
+            <img src="images/yir/edittracker_before.png" alt="edit tracker pop-up before usability testing">
+            <img src="images/yir/edittracker_after.png" alt="edit tracker pop-up after usability testing">
+          </div>
+      </section>
+      <section class="yir_conclusion" id="conclusion">
+        <div class="conclusion_text">
+          <h2>Conclusion</h2>
+          <p>While I am overall happy with the final prototype, usability testing also brought up some interesting concerns that I hadn’t thought of that I could address in future developments. Although this app was intended to use color as a motivating factor, there is room to develop for colorblind people.</p>
+          <br><p>It was also brought up that the year view in data analytics might set off trypophobia for some people, so I would need to address that as well. Other minor developments would include smaller preference settings such as choosing between 12 hours vs 24 hour time, integrating other motivating factors such as words of encouragement, and habit tools such as integrating hourly data inputs and water intake suggestions.</p>
+        </div>
+        <div class="final_product">
+          <img src="images/yir/mobile_prototype-02.png" alt="mobile prototype preview">
+          <br><a href="https://www.figma.com/proto/U3lc85yhuJwe9V4X9SvNTf/Lifestyle-Tracker-App?node-id=86946%3A264&viewport=-762%2C397%2C0.436566025018692&scaling=scale-down" target="_blank">View Mobile Prototype</a>
+        </div>
+      </section>
+      <section class="projects" id="project_section">
+        <div class="projects_title">
+        <h1>Projects</h1>
+        </div>
+        <div class="project_list">
+          <ul class="project_logos">
+            <li><a href="twp.html">
+              <div class="project_twp">
+                <div class="pl_twp_logo">
+                  <img src="images/twp_logo.png" alt="the wander project logo">
+                </div>
+                <div class="pl_twp_info">
+                  <h2>UI | UX | Graphic</h2>
+                  <h1>The Wander Project</h1>
+                  <p>A cloud storage project that changes the way a user would make itineraries for traveling. Whether it's wanderlusting, planning a business trip, a staycation, or a trip abroad, this project uses a responsive website with mobile application capabilities and also takes inspiration from social media.</p>
+                </div>
+              </div>
+            </a></li>
+            <li><a href="pioti.html">
+              <div class="project_pioti">
+                <div class="pl_pioti_logo">
+                  <img src="images/pioti_logo.jpg" alt="park it or ticket logo">
+                </div>
+                <div class="pl_pioti_info">
+                  <h2>UI | Graphic</h2>
+                  <h1>Park It or Ticket</h1>
+                  <p>UI project that was created out of my frustration for public parking. Finding parking was already a challenge, but having to figure out how long and when parking is allowed without receiving a ticket was getting out of hand. This project was my hypothetical mobile application that would take the stress out of parking.</p>
+                </div>
+              </div>
+            </a></li>
+            <li><a href="humanize.html">
+              <div class="project_humanize">
+                <div class="pl_humanize_logo">
+                  <img src="images/humanize_logo.png" alt="humanize project logo">
+                </div>
+                <div class="pl_humanize_info">
+                  <h2>UI | Graphic</h2>
+                  <h1>Humanize</h1>
+                  <p>UI project that focuses on helping the consumer be more mindful and productive in the midst of having multiple technological distractions. This project was a hypothetical solution to help us balance using tehchnology before we become the generation that could not live or function without our phones.</p>
+                </div>
+              </div>
+            </a></li>
+            <li><a href="toqos.html">
+              <div class="project_toqos">
+                <div class="pl_toqos_logo">
+                  <img src="images/toqos_main.JPG" alt="toqos logo">
+                </div>
+                <div class="pl_toqos_info">
+                  <h2>Graphic | Social Media Marketing</h2>
+                  <h1>Toqos</h1>
+                  <p>Small Instagram oriented company that hired me on as part of their social media marketing team. I was in charge of product photos, product information, and social media communication.</p>
+                </div>
+              </div>
+            </a></li>
+            <li><a href="365staging.html">
+              <div class="project_365">
+                <div class="pl_365_logo" alt="365 staging logo">
+                  <img class="white_bkgrd" src="images/365_logo.png">
+                </div>
+                <div class="pl_365_info">
+                  <h2>Graphic | Logo | Signage</h2>
+                  <h1>365 Staging</h1>
+                  <p>On top of being the Lead Designer for daily projects as a Home Stager, I was also the resident Graphic Designer to create decals for the the company vehicles, and flyers and posters for company and real estate use.</p>
+                </div>
+              </div>
+            </a></li>
+            <li><a href="jtnlaw.html">
+              <div class="project_jtnlaw">
+                <div class="pl_jtn_logo">
+                  <img class="white_bkgrd" src="images/jtn_logo.png">
+                </div>
+                <div class="pl_jtn_info">
+                  <h2>Graphic | Logo</h2>
+                  <h1>JTN Law</h1>
+                  <p>Freelance work for Jimmy Ngyuen to finalize a logo and design business cards.</p>
+                </div>
+              </div>
+            </a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="thanks">
+        <h4>Thanks for visting!</h4>
+      </div>
+      <div class="social_links">
+        <ul class="social_media">
+          <li>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSedX6MMGpeOHHex8wvXs9cm5r6HhuBjZbUA-mQmALXyWSUMWA/viewform?usp=sf_link" target="_blank">
+              <i class="fa fa-envelope-square" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/jessica-cheng-22378158/" target="_blank">
+              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/jesykaness" target="_blank">
+              <i class="fa fa-github-square" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com/jesykaness" target="_blank">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/jesykaness" target="_blank">
+              <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <h4>© 2020 Designed and Developed by Jessica Cheng</h4>
+      </div>
+    </footer>
+    <a href="#top">
+      <button id="myBtn">^</button>
+      <script src="styles/button.js"></script>
+    </a>
+  </body>
+</html>
