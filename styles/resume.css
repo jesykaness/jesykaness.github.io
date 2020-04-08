@@ -90,10 +90,10 @@ a.current:link {
   padding-bottom: 20px;
 }
 
-.project_twp, .project_pioti, .project_humanize, .project_toqos, .project_365, .project_jtnlaw {
+.project_twp, .project_yir, .project_pioti, .project_humanize, .project_toqos, .project_365, .project_jtnlaw {
   padding: 20px;
 }
-.project_twp:hover, .project_pioti:hover, .project_humanize:hover, .project_toqos:hover, .project_365:hover, .project_jtnlaw:hover {
+.project_twp:hover, .project_yir:hover, .project_pioti:hover, .project_humanize:hover, .project_toqos:hover, .project_365:hover, .project_jtnlaw:hover {
   -webkit-box-shadow: 0 6px 8px #545454;
   -moz-box-shadow: 0 6px 8px #545454;
   box-shadow: 0 6px 8px #545454;
@@ -128,7 +128,7 @@ a.current:link {
   padding: 30px;
 }
 
-.project_twp, .project_humanize, .project_pioti, .project_jtnlaw, .project_toqos, .project_365 {
+.project_twp, .project_yir, .project_humanize, .project_pioti, .project_jtnlaw, .project_toqos, .project_365 {
   align-items: center;
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -217,7 +217,7 @@ footer {
   grid-template-columns: 2.5fr 1fr;
   grid-gap: 90px;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
   padding-top: 50px;
 }
 

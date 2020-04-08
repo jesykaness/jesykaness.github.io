@@ -1,0 +1,298 @@
+.yir_hero {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+.hero_text {
+  padding-bottom: 100px;
+  margin: 0 auto;
+  width: 665px;
+}
+.hero_image img {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 1000px;
+}
+
+.link_list {
+  text-align: center;
+}
+
+.link_list li {
+  display: inline-block;
+  font-size: 1.5rem;
+  padding: 60px 50px 10px 50px;
+  text-transform: uppercase;
+}
+
+.final_product {
+  margin: 50px;
+}
+
+.final_product img {
+  height: 300px;
+  margin: 50px;
+}
+
+.yir_intro {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.intro_images img {
+  margin-left: 20px;
+  margin-top: 70px;
+  width: 320px;
+}
+.intro_text {
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+.deliverables_column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.yir_research, .yir_wireframing {
+  padding-bottom: 100px;
+  justify-content: center;
+}
+
+.research_a_text h2, .userflows_text h2, .yir_wireframing h2, .yir_branding h2, .yir_pptut h2, .conclusion_text h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.research_a_images img{
+  margin: 0 auto;
+  margin: 60px 20px 120px 20px;
+  height: 199px;
+}
+.research_a_text {
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.research_a_images, .research_b_images {
+  text-align: center;
+}
+.research_b_images img{
+  height: 90px;
+  margin: 60px 80px 100px 80px;
+}
+.research_b_text {
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.research_c_text, .research_d_text {
+  margin-bottom: 80px;
+}
+
+.user_personas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  justify-content: center;
+  padding-bottom: 100px;
+  max-width: none;
+}
+.fitness_queen, .back_on_track, .health_reminders {
+  align-items: center;
+  background-color: #E2B779;
+  border: 1px solid #545454;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  justify-content: center;
+}
+.fitness_queen p, .fitness_queen h2, .back_on_track p, .back_on_track h2, .health_reminders p, .health_reminders h2 {
+  color: #FFFFFF;
+}
+.info_pic img {
+  padding: 20px;
+  height: 120px;
+}
+
+.user_personas a p, .us_link a p {
+  text-decoration: underline;
+}
+
+.user_stories {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.user_new, .user_returning {
+  border: 1px solid #545454;
+  display: grid;
+  grid-template-columns: 7fr 1fr;
+  grid-gap: 20px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px;
+  width: 420px;
+}
+
+.userflows_text, .userflows_b_text {
+  padding-bottom: 80px;
+}
+.userflows_images img {
+  margin-left: 50px;
+  margin-bottom: 100px;
+  height: 250px;
+}
+
+.userflows_b_images img{
+  margin: 0 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  vertical-align: top;
+  width: 290px;
+}
+.wireframing_images, .wireframing_images_b {
+  text-align: center;
+}
+.wireframing_images img{
+  padding-bottom: 80px;
+  padding-top: 60px;
+  width: 340px;
+}
+.wireframing_text {
+  padding-bottom: 50px;
+  width: 100%;
+}
+.wireframing_images_b img {
+  border: 1px solid #545454;
+  margin: 20px;
+  width: 200px;
+}
+.branding_a_text, .branding_b_text, .branding_c_text, .pptut_a_text, .pptut_b_text {
+  margin-bottom: 80px;
+}
+.branding_a_images {
+  text-align: center;
+}
+.branding_a_images img {
+  height: 250px;
+  margin: 20px 50px 20px 50px;
+  margin-bottom: 80px;
+}
+
+.yir_styleguide, .pptut_a_images {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.yir_styleguide img {
+  border: 1px solid #545454;
+  margin: 5px;
+  margin-bottom: 80px;
+  width: 495px;
+}
+
+.pptut_a_images img {
+  border: 1px solid #545454;
+  margin: 20px;
+  width: 200px;
+}
+
+.twp_pptut_b, .twp_pptut_c {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.before_after {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.before_after img {
+  border: 1px solid #545454;
+  margin: 5px;
+  margin-bottom: 100px;
+  width: 150px;
+  vertical-align: top;
+}
+
+.conclusion_text {
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.final_product {
+  padding-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+  .twp_hero, .twp_intro, .twp_research_a, .twp_research_b, .twp_userflows_a, .twp_userflows_b, .twp_wireframing, .twp_branding_a, .twp_branding_b, .twp_pptut_a, .twp_pptut_b, .twp_pptut_c, .twp_conclusion {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin: 0 auto;
+    width: 85%;
+  }
+  .hero_text, .intro_text, .research_a_text, .research_b_text, .userflows_a_text, .wireframing_text, .branding_a_text, .pptut_a_text, .conclusion_text {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .hero_image img, .intro_images img, .research_a_images img, .research_b_images img, .userflows_a_images img, .userflows_b_images img, .wireframing_images img, .wireframing_images_b img, .branding_a_images img, .branding_b_images img, .pptut_a_images img, .pptut_b_images img, .pptut_images_c img, .conclusion_images img {
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .twp_hero {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .twp_hero, .twp_intro, .twp_research_a, .twp_research_b, .twp_userflows_a, .twp_userflows_b, .twp_wireframing, .twp_branding_a, .twp_branding_b, .twp_pptut_a, .twp_pptut_b, .twp_pptut_c, .twp_conclusion {
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    max-width: 85%;
+  }
+  .twp_hero {
+    margin-top: 80px;
+  }
+  .hero_image img {
+    max-width: 100%;
+  }
+  .intro_images img, .research_a_images img, .research_b_images img, .userflows_a_images img, .wireframing_images img, .branding_a_images img, .pptut_a_images img {
+    width: 85%;
+  }
+  .wireframing_images_b img {
+    width: 48%;
+  }
+  .userflows_b_images img {
+    justify-content: center;
+    width: 26%;
+  }
+  .branding_b_images img, .pptut_b_images img {
+    width: 47%;
+  }
+
+  .pptut_images_c img {
+    width: 31%;
+  }
+  .twp_conclusion {
+    grid-template-columns: 100%;
+  }
+  .conclusion_images img {
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  .twp_hero, .twp_intro, .twp_research_a, .twp_research_b, .twp_userflows_a, .twp_userflows_b, .twp_wireframing, .twp_branding_a, .twp_branding_b, .twp_pptut_a, .twp_pptut_b, .twp_pptut_c, .twp_conclusion {
+    margin-bottom: 20px;
+  }
+}
