@@ -153,9 +153,9 @@
   text-align: center;
 }
 .wireframing_images img{
-  padding-bottom: 80px;
-  padding-top: 60px;
-  width: 340px;
+  padding-bottom: 40px;
+  padding-top: 50px;
+  width: 100%;
 }
 .wireframing_text {
   padding-bottom: 50px;
@@ -172,11 +172,9 @@
 .branding_a_images {
   text-align: center;
 }
-.branding_a_images img{
-  border: 1px solid #545454;
-  margin: 20px;
-  margin-bottom: 80px;
-  width: 180px;
+.branding_a_images img {
+  margin: 0px 10px 50px;
+  width: 487px;
 }
 
 .twp_styleguide, .twp_styleguide_b {
