@@ -4,7 +4,7 @@
   margin-top: 100px;
 }
 .hero_text {
-  padding-bottom: 100px;
+  margin-bottom: 100px;
   margin: 0 auto;
   width: 665px;
 }
@@ -38,7 +38,7 @@
   width: 320px;
 }
 .intro_text {
-  padding-bottom: 100px;
+  margin-bottom: 100px;
   width: 100%;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .twp_research, .twp_wireframing {
-  padding-bottom: 100px;
+  margin-bottom: 100px;
 }
 .research_a_text h2, .userflows_text h2, .twp_wireframing h2, .twp_branding h2, .twp_pptut h2, .conclusion_text h2 {
   text-align: center;
@@ -62,7 +62,7 @@
   height: 225px;
 }
 .research_a_text {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   width: 100%;
 }
 
@@ -74,7 +74,7 @@
   margin: 60px 80px 100px 80px;
 }
 .research_b_text {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   width: 100%;
 }
 
@@ -129,7 +129,7 @@
 }
 
 .userflows_text, .userflows_b_text {
-  padding-bottom: 80px;
+  margin-bottom: 80px;
 }
 .userflows_images img {
   margin-left: 50px;
@@ -215,7 +215,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .before_after img {
   border: 1px solid #545454;
@@ -241,18 +241,25 @@
 }
 
 @media screen and (max-width: 767px) {
-  .twp_hero, .twp_intro, .twp_research_a, .twp_research_b, .twp_userflows_a, .twp_userflows_b, .twp_wireframing, .twp_branding_a, .twp_branding_b, .twp_pptut_a, .twp_pptut_b, .twp_pptut_c, .twp_conclusion {
+  .twp_hero, .twp_intro, .twp_userflows, .twp_wireframing, .twp_conclusion {
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
     margin: 0 auto;
     width: 85%;
   }
-  .hero_text, .intro_text, .research_a_text, .research_b_text, .userflows_a_text, .wireframing_text, .branding_a_text, .pptut_a_text, .conclusion_text {
+  .twp_research, .twp_branding, .twp_pptut {
+    justify-content: center;
     margin: 0 auto;
+    width: 85%;
+  }
+
+  .hero_text, .intro_text, .research_a_text, .research_b_text, .userflows_a_text, .wireframing_text, .branding_a_text, .pptut_a_text, .pptut_b_text, .conclusion_text {
+    margin: 0 auto;
+    margin-bottom: 40px;
     width: 100%;
   }
-  .hero_image img, .intro_images img, .research_a_images img, .research_b_images img, .userflows_a_images img, .userflows_b_images img, .wireframing_images img, .wireframing_images_b img, .branding_a_images img, .branding_b_images img, .pptut_a_images img, .pptut_b_images img, .pptut_images_c img, .conclusion_images img {
+  .hero_image img, .intro_images img, .research_a_images img, .research_b_images img, .userflows_a_images img, .userflows_b_images img, .wireframing_images img, .wireframing_images_b img, .branding_a_images img, .twp_styleguide img, .twp_styleguide_b img, .pptut_a_images img, .pptut_b_images img, .pptut_images_c img, .conclusion_images img {
     justify-content: center;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -260,6 +267,80 @@
   }
   .twp_hero {
     padding-top: 30px;
+  }
+
+  .link_list li {
+    display: inline-block;
+    font-size: 1.1rem;
+    padding: 10px 15px 10px 15px;
+  }
+  .link_list, .final_product {
+    margin-bottom: 40px;
+  }
+  .final_product li {
+    padding: 10px 50px 10px 50px;
+  }
+  .deliverables_column {
+    display: inline;
+  }
+  .research_a_images img {
+    height: auto;
+  }
+  .research_b_images img {
+    height: auto;
+    width: 50px;
+    margin: 20px 25px 50px 25px;
+  }
+
+  .user_personas {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+    justify-content: center;
+    padding-bottom: 50px;
+    max-width: none;
+  }
+  .user_stories {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .user_stories h2 {
+    font-size: 1.7rem;
+  }
+  .user_new, .user_returning {
+    border: 1px solid #545454;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    width: 90%;
+  }
+  .userflows_images img {
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    height: auto;
+    width: 100%;
+  }
+  .twp_research, .twp_wireframing {
+    margin-bottom: 50px;
+  }
+  .twp_styleguide, .twp_styleguide_b, .pptut_a_images {
+    display: inline;
+  }
+  .before_after {
+    display: inline;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .before_after img {
+    margin-bottom: 50px;
+    height: auto;
+    width: 45%;
   }
 }
 

@@ -80,12 +80,12 @@ i {
   grid-template-columns: 2fr 3fr;
   grid-gap: 20px;
   justify-content: center;
-  padding-bottom: 250px;
-  padding-top: 120px;
+  margin-bottom: 250px;
+  margin-top: 120px;
   width: 1020px;
 }
 
-.hello_image img{
+.hello_image img {
   background: #ffffff;
   margin-left: 50px;
   padding: 15px 15px 40px;
@@ -146,7 +146,7 @@ i {
 
 .project_list li {
   list-style: none;
-  padding: 30px;
+  margin: 30px;
 }
 
 .project_twp a:hover {
@@ -159,7 +159,6 @@ i {
   grid-template-columns: 1fr 3fr;
   grid-gap: 40px;
   justify-content: center;
-  margin: none;
   text-align: left;
 }
 
@@ -222,7 +221,7 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
-  .hello, .projects {
+  .projects {
     justify-content: center;
     margin: 0 auto;
     overflow: hidden;
@@ -241,24 +240,64 @@ footer {
   .navigation_list {
     float: none;
     justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
     padding-bottom: 20px;
     width: 85%;
   }
   .navigation li {
     font-size: 1.2rem;
-    padding: 10px;
-    padding-left: 0px;
+    padding: 12px;
   }
   .hello {
-    padding-bottom: 20px;
-    padding-top: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin: 0 auto;
+    width: 85%;
   }
-  .projects {
-    padding-bottom: 20px;
+  .hello_image img {
+    margin-left: auto;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 4px 6px #545454;
+    -moz-box-shadow: 0 4px 6px #545454;
+    box-shadow: 0 4px 6px #545454;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    align-items: center;
+    height: auto;
+    margin-top: 50px;
+    width: 92%;
+  }
+  .hello_text {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+
+  .project_twp, .project_yir, .project_humanize, .project_pioti, .project_jtnlaw, .project_toqos, .project_365 {
+    display: inline;
+    grid-gap: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  .project_list p {
+    display: none;
+  }
+  .project_list h1 {
+    text-align: center;
+  }
+  .project_list li {
+    margin-bottom: 20px;
   }
   .project_logos img {
-    height: 100px;
+    height: auto;
+    margin-bottom: 35px;
+    width: 80%;
   }
+  #myBtn {
+    bottom: 40px;
+    right: 40px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {

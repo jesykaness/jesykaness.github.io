@@ -29,11 +29,6 @@
   margin: 50px;
 }
 
-.final_product img {
-  height: 300px;
-  margin: 50px;
-}
-
 .yir_intro {
   display: grid;
   grid-template-columns: 2fr 3fr;
@@ -47,7 +42,7 @@
   width: 320px;
 }
 .intro_text {
-  padding-bottom: 100px;
+  margin-bottom: 100px;
   width: 100%;
 }
 
@@ -70,10 +65,10 @@
 .research_a_images img{
   margin: 0 auto;
   margin: 60px 20px 120px 20px;
-  height: 199px;
+  width: 45%;
 }
 .research_a_text {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   width: 100%;
 }
 
@@ -81,11 +76,11 @@
   text-align: center;
 }
 .research_b_images img{
-  height: 90px;
+  width: 90px;
   margin: 60px 80px 100px 80px;
 }
 .research_b_text {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   width: 100%;
 }
 
@@ -126,7 +121,7 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   justify-content: center;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .user_new, .user_returning {
   border: 1px solid #545454;
@@ -161,7 +156,7 @@
 .wireframing_images img{
   padding-bottom: 80px;
   padding-top: 60px;
-  width: 340px;
+  width: 100%;
 }
 .wireframing_text {
   padding-bottom: 50px;
@@ -199,14 +194,10 @@
 .pptut_a_images img {
   border: 1px solid #545454;
   margin: 20px;
+  margin-bottom: 80px;
   width: 200px;
 }
 
-.twp_pptut_b, .twp_pptut_c {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
 .before_after {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -222,7 +213,7 @@
 }
 
 .conclusion_text {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   width: 100%;
 }
 
@@ -232,26 +223,100 @@
   text-transform: uppercase;
 }
 
+.final_product img {
+  height: 300px;
+  margin: 50px;
+}
+
 @media screen and (max-width: 767px) {
-  .twp_hero, .twp_intro, .twp_research_a, .twp_research_b, .twp_userflows_a, .twp_userflows_b, .twp_wireframing, .twp_branding_a, .twp_branding_b, .twp_pptut_a, .twp_pptut_b, .twp_pptut_c, .twp_conclusion {
+  .yir_hero, .yir_intro, .yir_research_b, .yir_wireframing, .before_after, .yir_conclusion {
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
     margin: 0 auto;
     width: 85%;
   }
-  .hero_text, .intro_text, .research_a_text, .research_b_text, .userflows_a_text, .wireframing_text, .branding_a_text, .pptut_a_text, .conclusion_text {
+  .yir_research, .yir_userflows, .yir_branding, .yir_pptut {
+    justify-content: center;
     margin: 0 auto;
+    width: 85%;
+  }
+  .yir_text, .intro_text, .research_a_text, .research_b_text, .research_c_text, .userflows_a_text, .wireframing_text, .branding_a_text, .branding_b_text, .branding_c_text, .pptut_a_text, .conclusion_text {
+    margin: 0 auto;
+    margin-bottom: 50px;
     width: 100%;
   }
-  .hero_image img, .intro_images img, .research_a_images img, .research_b_images img, .userflows_a_images img, .userflows_b_images img, .wireframing_images img, .wireframing_images_b img, .branding_a_images img, .branding_b_images img, .pptut_a_images img, .pptut_b_images img, .pptut_images_c img, .conclusion_images img {
+  .hero_image img, .intro_images img, .research_a_images img, .research_b_images img,  .wireframing_images img, .wireframing_images_b img, .branding_a_images img, .yir_styleguide img, .pptut_a_images img, .conclusion_images img {
     justify-content: center;
+    height: auto;
     margin: 0 auto;
     margin-bottom: 20px;
     width: 100%;
   }
-  .twp_hero {
-    padding-top: 30px;
+  .yir_hero {
+    margin-top: 30px;
+  }
+  .link_list li {
+    display: inline-block;
+    font-size: 1.1rem;
+    padding: 10px 15px 10px 15px;
+  }
+  .final_product {
+    margin: 20px;
+    padding-bottom: 50px;
+  }
+  .deliverables_column {
+    display: inline;
+  }
+  .research_a_images img, .yir_styleguide img {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .research_b_images img{
+    width: 50px;
+    margin: 20px 25px 50px 25px;
+  }
+  .user_personas {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+    justify-content: center;
+    padding-bottom: 50px;
+    max-width: none;
+  }
+  .user_stories {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .user_stories h2 {
+    font-size: 1.7rem;
+  }
+  .user_new, .user_returning {
+    border: 1px solid #545454;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    width: 90%;
+  }
+  .userflows_images img {
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    height: auto;
+    width: 100%;
+  }
+  .yir_styleguide, .pptut_a_images {
+    display: inline;
+  }
+
+  .before_after img {
+    margin-bottom: 20px;
+    width: 44%;
   }
 }
 

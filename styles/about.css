@@ -52,9 +52,28 @@
   .about_hero {
     margin-top: 50px;
   }
+
   .hero_image img {
-    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    width: 26%;
+    background: #ffffff;
+    margin-left: 10px;
+    padding: 5px 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 6px #545454;
+    -moz-box-shadow: 0 4px 6px #545454;
+    box-shadow: 0 4px 6px #545454;
   }
+
+  .image_right {
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+  }
+  .image_left {
+    -webkit-transform: rotate(-6deg);
+    -moz-transform: rotate(-6deg);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
