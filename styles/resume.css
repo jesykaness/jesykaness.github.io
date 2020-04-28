@@ -101,6 +101,8 @@ a.current:link {
 
 .project_list p {
   margin: 0;
+  font-size: 1.6rem;
+  line-height: 1.6em;
 }
 .project_list h1 {
   font-size: 2.7rem;
@@ -267,20 +269,24 @@ footer {
     padding-top: 30px;
     width: 85%;
   }
+
   h1 {
     font-size: 2rem;
   }
 
   .project_twp, .project_yir, .project_humanize, .project_pioti, .project_jtnlaw, .project_toqos, .project_365 {
     display: inline;
-    grid-gap: 10px;
     justify-content: center;
     text-align: center;
+    padding: 0px;
   }
   .project_list p {
     display: none;
   }
   .project_list h1 {
+    text-align: center;
+  }
+  .project_list h2 {
     text-align: center;
   }
   .project_list li {
@@ -320,9 +326,6 @@ footer {
     padding: 10px;
   }
   .projects {
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 500px;
     padding-bottom: 60px;
   }
   .project_logos img {

@@ -277,9 +277,9 @@ footer {
 
   .project_twp, .project_yir, .project_humanize, .project_pioti, .project_jtnlaw, .project_toqos, .project_365 {
     display: inline;
-    grid-gap: 10px;
     justify-content: center;
     text-align: center;
+    padding: 0px;
   }
   .project_list p {
     display: none;
@@ -328,7 +328,6 @@ footer {
     margin-top: 80px;
   }
   .projects {
-    max-width: 500px;
     padding-bottom: 60px;
   }
   .project_logos img {
