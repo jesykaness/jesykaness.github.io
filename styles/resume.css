@@ -196,6 +196,7 @@ footer {
   font-size: 18px;
   font-weight: bold;
   height: 40px;
+  outline: none;
   padding: 10px;
   position: fixed;
   right: 60px;
