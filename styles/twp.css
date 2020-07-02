@@ -25,6 +25,20 @@
   text-transform: uppercase;
 }
 
+.vbutton {
+  background-color: #FFFFFF;
+  border: .1px solid #808080;
+  border-radius: 20px;
+  font-size: 14px;
+  padding: 6px 12px;
+}
+
+.vbutton:hover {
+  background-color: #2B2B2B;
+  border: .1px solid #2B2B2B;
+  color: #FFFFFF;
+}
+
 .twp_intro {
   display: grid;
   grid-template-columns: 2fr 3fr;
@@ -131,10 +145,14 @@
 .userflows_text, .userflows_b_text {
   margin-bottom: 80px;
 }
+
+.userflows_images {
+  display: flex;
+}
 .userflows_images img {
-  margin-left: 50px;
-  margin-bottom: 100px;
-  height: 250px;
+  margin: 0 auto;
+  padding: 20px 20px 120px 20px;
+  height: 270px;
 }
 
 .twp_userflows_b {
@@ -142,13 +160,7 @@
   justify-content: center;
   margin-bottom: 20px;
 }
-.userflows_b_images img{
-  margin: 0 10px;
-  margin-bottom: 20px;
-  padding: 10px;
-  vertical-align: top;
-  width: 290px;
-}
+
 .wireframing_images, .wireframing_images_b {
   text-align: center;
 }
@@ -163,8 +175,8 @@
 }
 .wireframing_images_b img {
   border: 1px solid #545454;
-  margin: 50px;
-  width: 285px;
+  margin: 50px 20px;
+  width: 400px;
 }
 .branding_a_text, .branding_b_text, .branding_c_text, .pptut_a_text, .pptut_b_text {
   margin-bottom: 80px;
@@ -194,16 +206,17 @@
   width: 242px;
 }
 
-.pptut_a_images {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-  justify-content: center;
-  padding-bottom: 50px;
-}
-.pptut_a_images img {
+.home_preference img, .itineraries_preference img {
   border: 1px solid #545454;
-  width: 150px;
+  margin: 20px 20px;
+  width: 250px;
+}
+
+.home_preference, .itineraries_preference {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 .twp_pptut_b, .twp_pptut_c {
@@ -211,18 +224,18 @@
   justify-content: center;
   margin-bottom: 20px;
 }
-.before_after {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-.before_after img {
+
+.ba_itineraries img, .ba_itinerary img {
   border: 1px solid #545454;
-  margin: 5px;
-  margin-bottom: 100px;
-  height: 210px;
-  vertical-align: top;
+  margin: 20px 20px;
+  width: 400px;
+}
+
+.ba_itineraries, .ba_itinerary {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 .conclusion_text {
@@ -254,12 +267,23 @@
     width: 85%;
   }
 
+   .home_preference, .itineraries_preference, .ba_itineraries, .ba_itinerary {
+     display: grid;
+   }
+
   .hero_text, .intro_text, .research_a_text, .research_b_text, .userflows_a_text, .wireframing_text, .branding_a_text, .pptut_a_text, .pptut_b_text, .conclusion_text {
     margin: 0 auto;
     margin-bottom: 40px;
     width: 100%;
   }
   .hero_image img, .intro_images img, .research_a_images img, .research_b_images img, .userflows_a_images img, .userflows_b_images img, .wireframing_images img, .wireframing_images_b img, .branding_a_images img, .twp_styleguide img, .twp_styleguide_b img, .pptut_a_images img, .pptut_b_images img, .pptut_images_c img, .conclusion_images img {
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .home_preference img, .itineraries_preference img, .ba_itineraries img, .ba_itinerary img {
     justify-content: center;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -319,6 +343,9 @@
     padding: 20px;
     width: 90%;
   }
+  .userflows_images {
+    display: grid;
+  }
   .userflows_images img {
     justify-content: center;
     margin: 0 auto;
@@ -342,6 +369,20 @@
     height: auto;
     width: 45%;
   }
+
+  .vbutton {
+    background-color: none;
+    border: none;
+    border-radius: 0px;
+    font-size: 14px;
+    padding: 0px;
+  }
+
+  .vbutton:hover {
+    background-color: none;
+    border: none;
+    color: none;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -357,19 +398,64 @@
   .hero_image img {
     max-width: 100%;
   }
-  .intro_images img, .research_a_images img, .research_b_images img, .userflows_a_images img, .wireframing_images img, .branding_a_images img, .pptut_a_images img {
+  .intro_images img, .wireframing_images img, .branding_a_images img, .pptut_a_images img {
     width: 85%;
   }
   .wireframing_images_b img {
-    width: 48%;
+    width: 42%;
   }
-  .userflows_b_images img {
+
+  .userflows_images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .userflows_images img {
     justify-content: center;
-    width: 26%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    height: auto;
+    width: 80%;
   }
+
+  .user_stories, .user_personas {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  .user_personas {
+    width: 350px;
+    margin: 0 auto;
+  }
+
   .branding_b_images img, .pptut_b_images img {
     width: 47%;
   }
+
+  .twp_styleguide, .twp_styleguide_b {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .twp_styleguide_b {
+    margin-bottom: 50px;
+  }
+
+  .twp_styleguide img, .twp_styleguide_b img {
+    width: 330px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+  }
+
+  .home_preference img, .itineraries_preference img {
+    width: 25%;
+  }
+   .ba_itineraries img, .ba_itinerary img  {
+     width: 40%;
+   }
 
   .pptut_images_c img {
     width: 31%;
