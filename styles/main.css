@@ -38,6 +38,16 @@ p {
   max-width: 665px;
 }
 
+.intro_name {
+  font-size: 2rem;
+}
+.intro_LA {
+  font-size: 2.2rem;
+}
+.intro_small {
+  font-size: 1.4rem;
+}
+
 h4 {
   font-size: 1.2rem;
 }
@@ -68,6 +78,11 @@ i {
   width: 400px;
 }
 
+.navigation_list a:hover {
+  text-decoration: overline;
+}
+
+
 .navigation li {
   display: inline-block;
   font-size: 1.5rem;
@@ -80,7 +95,7 @@ i {
   grid-template-columns: 2fr 3fr;
   grid-gap: 20px;
   justify-content: center;
-  margin-bottom: 250px;
+  margin-bottom: 120px;
   margin-top: 120px;
   width: 1020px;
 }
@@ -149,10 +164,6 @@ i {
   margin: 30px;
 }
 
-.project_twp a:hover {
-
-}
-
 .project_twp, .project_yir, .project_humanize, .project_pioti, .project_jtnlaw, .project_toqos, .project_365 {
   align-items: center;
   display: grid;
@@ -166,21 +177,25 @@ footer {
   background-color: #545454;
   bottom: 0;
   color: #FFFFFF;
-  height: 120px;
+  height: 180px;
   padding-top: 0.6rem;
   text-align: center;
   width: 100%;
 }
 
 .thanks {
-  padding-top: 30px;
+  padding: 30px 0px 30px;
+}
+
+.thanks h4 {
+  font-size: 1.4rem;
 }
 
 .social_media {
   color: #FFFFFF;
   list-style-type: none;
-  padding: 5px;
-  font-size: 1.8rem;
+  padding: 0px 10px;
+  font-size: 3.4rem;
 }
 
 .social_media i {
@@ -189,7 +204,7 @@ footer {
 
 .social_media li {
   display: inline-block;
-  padding: 6px;
+  padding: 0px 20px 10px;
 }
 
 .copyright {
@@ -219,6 +234,75 @@ footer {
 #myBtn:hover {
   background-color: #2B2B2B;
   color: #FFFFFF;
+}
+
+
+.contact_text h1 {
+  font-size: 2.6rem;
+  text-align: left;
+}
+.contact_me {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  justify-content: center;
+  text-align: left;
+  margin: 120px 0px;
+}
+
+.contact_text {
+  text-align: left;
+}
+.contact_form {
+  margin: 0 auto;
+  width: 400px;
+}
+.contact_form h2 {
+  font-size: 4.1rem;
+  color: #FFFFFF;
+  padding: 20px 0px;
+  text-transform: uppercase;
+}
+
+.contact_info  {
+  padding: 200px 0px;
+  width: 300px;
+}
+.contact_info h4 {
+  color: #FFFFFF;
+}
+
+input[type=text], textarea {
+  width: 420px;
+  color: #808080;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  padding: 10px;
+  border: .1px solid #808080;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 10px 0px;
+  outline: none;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #808080;
+  margin: 10px 0px;
+  padding: 10px 15px;
+  border: .1px solid #808080;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+input[type=submit]:hover {
+  background-color: #808080;
+  color: #FFFFFF;
+  border: .1px solid #FFFFFF;
 }
 
 @media screen and (max-width: 767px) {
