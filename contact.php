@@ -1,44 +1,14 @@
 <?php
 
-if($_POST["submit"]) {
-    $recipient="jesyka.cheng@gmail.com";
-    $subject="Message from Portfolio";
-    $sender=$_POST["name"];
-    $senderEmail=$_POST["email"];
-    $message=$_POST["subject"];
+if (isset($_POST['submit'])) {
+  $name = $_POST['name'];
+  $mailFrom = $_POST['email'];
+  $message = $_POST['message'];
 
-    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+  $mailTo = "jesyka.cheng@gmail.com";
+  $headers = "Portfolio Message From: ".$mailFrom;
+  $txt = "You have a message from ".$name.".\n\n".$message;
 
-    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
-
-    $thankYou="<p>Thank you! Your message has been sent.</p>";
+  mail($mailTo, $txt, $headers);
+  header("Location: contact.php?mailsend");
 }
-
-?><!DOCTYPE html>
-
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Contact form to email</title>
-</head>
-
-<body>
-
-    <?=$thankYou ?>
-
-    <form method="post" action="contact.php">
-        <label>Name:</label>
-        <input name="name">
-
-        <label>Email address:</label>
-        <input name="email">
-
-        <label>Message:</label>
-        <textarea rows="5" cols="20" name="message"></textarea>
-
-        <input type="submit" name="submit">
-    </form>
-
-</body>
-
-</html>

@@ -286,7 +286,7 @@ input[type=text], textarea {
   resize: vertical;
 }
 
-input[type=submit] {
+button[type=submit] {
   background-color: #FFFFFF;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
@@ -299,7 +299,7 @@ input[type=submit] {
   outline: none;
 }
 
-input[type=submit]:hover {
+button[type=submit]:hover {
   background-color: #808080;
   color: #FFFFFF;
   border: .1px solid #FFFFFF;
