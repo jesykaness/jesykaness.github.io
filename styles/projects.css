@@ -1,0 +1,190 @@
+.projects {
+  justify-content: center;
+  margin: 0 auto;
+  margin: 100px 0px;
+  text-align: center;
+  width: 100%;
+}
+
+.projects_title {
+  padding-bottom: 50px;
+}
+
+.project_list p, .project_list_featured p {
+  font-size: 1.4rem;
+  margin: 0 auto;
+  width: 240px;
+}
+.project_list h1, .project_list_featured h1 {
+  color: #545454;
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  text-align: center;
+}
+.project_list h2, .project_list_featured h2 {
+  font-size: 1.6rem;
+}
+
+.project_list li, .project_list_featured li {
+  display: inline-grid;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.polaroid {
+  padding: 5px;
+  -webkit-box-shadow: 0 6px 8px #545454;
+  -moz-box-shadow: 0 6px 8px #545454;
+  box-shadow: 0 6px 8px #545454;
+}
+
+.polaroid_pic {
+  max-width: 240px;
+  margin: 15px;
+}
+
+.polaroid_picf {
+  max-width: 200px;
+  margin: 15px;
+}
+
+
+.p_caption {
+  padding-bottom: 15px;
+}
+
+.p_whitebkgd {
+  border: 1px solid #808080;
+}
+
+.p_featured {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 10px;
+  justify-content: center;
+  text-align: left;
+  max-width: 490px;
+}
+
+.p_feat_text {
+  padding-top: 15px;
+}
+
+.p_feat_text h1 {
+  text-align: left;
+}
+
+.p_feat_text h3 {
+  color: #808080;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 4.2px;
+  text-transform: uppercase;
+  line-height: normal;
+  padding-bottom: 15px;
+}
+
+.p_feat_text p {
+  line-height: normal;
+  width: auto;
+  padding-right: 15px;
+}
+
+.item .polaroid:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  transition: all 0.35s;
+}
+.item {
+  transform: scale(0.88, 0.88);
+  transition: all 0.35s;
+}
+.item .polaroid:before {
+  transform: rotate(6deg);
+  height: 20%;
+  width: 47%;
+  bottom: 10px;
+  right: 12px;
+}
+
+.item:hover, .item_odd:hover {
+  filter: none;
+  transform: scale(1, 1) rotate(0deg) !important;
+  transition: all 0.35s;
+}
+.item:hover .polaroid:before, .item_odd:hover .polaroid:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  transform: rotate(0deg);
+  height: 90%;
+  width: 90%;
+  bottom: 0%;
+  right: 5%;
+  transition: all 0.35s;
+}
+
+@media screen and (max-width: 767px) {
+  .projects {
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 85%;
+  }
+
+  .project_list p {
+    display: none;
+  }
+  .project_list h1 {
+    text-align: center;
+  }
+  .project_list {
+    margin-bottom: 50px;
+  }
+
+  .polaroid {
+    height: auto;
+    padding: 5px;
+  }
+
+  .project_list li {
+    display: inline-grid;
+    list-style: none;
+    margin: 12px 0px;
+  }
+
+  .polaroid img {
+    width: 85%;
+    margin: 15px;
+  }
+
+  .p_featured {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    max-width: 925px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .hello, .projects {
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 85%;
+  }
+
+  .projects {
+    padding-bottom: 60px;
+  }
+
+  .p_featured {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
+    justify-content: center;
+    text-align: left;
+    max-width: 325px;
+  }
+}

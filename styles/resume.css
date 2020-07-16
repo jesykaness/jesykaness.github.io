@@ -109,6 +109,7 @@ a.current:link {
   text-align: center;
   text-transform: none;
 }
+
 .project_list h2 {
   font-size: 1.6rem;
   font-weight: normal;
@@ -116,7 +117,7 @@ a.current:link {
   text-transform: uppercase;
 }
 
-.project_list:hover h2 {
+.project_list:hover h2{
   text-decoration: none;
 }
 
@@ -127,15 +128,13 @@ a.current:link {
 }
 
 .polaroid {
-  height: 400px;
   padding: 5px;
   -webkit-box-shadow: 0 6px 8px #545454;
   -moz-box-shadow: 0 6px 8px #545454;
   box-shadow: 0 6px 8px #545454;
 }
 
-.polaroid img {
-  width: 240px;
+.p_feat_pic {
   margin: 15px;
 }
 
@@ -146,6 +145,41 @@ a.current:link {
 .p_whitebkgd {
   border: 1px solid #808080;
 }
+
+.p_featured {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 10px;
+  justify-content: center;
+  text-align: left;
+  max-width: 490px;
+}
+
+.p_feat_text {
+  padding-top: 20px;
+}
+
+.p_feat_text h1, .p_feat_text h2 {
+  text-align: left;
+}
+
+.p_feat_text h3, .p_caption h3 {
+  color: #808080;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 4.2px;
+  text-transform: uppercase;
+  line-height: normal;
+  padding-bottom: 15px;
+}
+
+.p_feat_text p {
+  width: auto;
+  padding-right: 15px;
+}
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}
 
 .item .polaroid:before {
   content: '';
@@ -190,6 +224,24 @@ a.current:link {
   bottom: 0%;
   right: 5%;
   transition: all 0.35s;
+}
+
+.vbutton {
+  background-color: #FFFFFF;
+  border: .1px solid #808080;
+  border-radius: 20px;
+  font-size: 14px;
+  padding: 6px 20px;
+}
+
+.vbutton:hover {
+  background-color: #2B2B2B;
+  border: .1px solid #2B2B2B;
+  color: #FFFFFF;
+}
+
+.viewprojects {
+  margin: 30px 0px;
 }
 
 a:hover h5 {
@@ -277,7 +329,7 @@ footer {
   grid-template-columns: 2.5fr 1fr;
   grid-gap: 90px;
   justify-content: center;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   padding-top: 50px;
 }
 
@@ -332,33 +384,57 @@ footer {
     font-size: 2rem;
   }
 
-  .project_twp, .project_yir, .project_humanize, .project_pioti, .project_jtnlaw, .project_toqos, .project_365 {
-    display: inline;
-    justify-content: center;
-    text-align: center;
-    padding: 0px;
-  }
-  .project_list p {
+  .project_list p, .pproject_list p {
     display: none;
   }
-  .project_list h1 {
+  .project_list h1, .pproject_list h1 {
     text-align: center;
   }
-  .project_list h2 {
-    text-align: center;
+  .project_list, .pproject_list {
+    margin-bottom: 50px;
   }
-  .project_list li {
-    margin-bottom: 20px;
-  }
-  .project_logos img {
+
+  .polaroid {
     height: auto;
-    margin-bottom: 35px;
-    width: 80%;
+    padding: 5px;
   }
+
+  .project_list li, .pproject_list li {
+    display: inline-grid;
+    list-style: none;
+    margin: 12px 0px;
+  }
+
+  .polaroid img {
+    width: 85%;
+    margin: 15px;
+  }
+
   #myBtn {
     bottom: 40px;
     right: 40px;
+  }
+
+  #content-desktop {display: none;}
+  #content-mobile {display: block;}
 }
+
+footer {
+  background-color: #545454;
+  bottom: 0;
+  color: #FFFFFF;
+  height: 180px;
+  padding-top: 0.6rem;
+  text-align: center;
+  width: 100%;
+}
+
+.social_media {
+  font-size: 3rem;
+}
+
+.social_media li {
+  padding: 0px 12px 10px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -385,9 +461,6 @@ footer {
   }
   .projects {
     padding-bottom: 60px;
-  }
-  .project_logos img {
-    height: 125px;
   }
 
   .rs_intro {
