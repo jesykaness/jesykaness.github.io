@@ -254,7 +254,7 @@ a:hover h5 {
   color: #2B2B2B;
 }
 
-a:hover h2 {
+a:hover h2, a:hover h1 {
   text-decoration: underline;
 }
 
@@ -337,6 +337,12 @@ footer {
   justify-content: center;
   margin-bottom: 100px;
   padding-top: 50px;
+}
+
+.experience i {
+  color: #808080;
+  font-size: 1.4rem;
+  padding-left: 5px;
 }
 
 .computer ul, .graphic_design ul, .product_design ul, .uiux_design ul, .languages ul {
