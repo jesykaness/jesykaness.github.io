@@ -223,8 +223,7 @@ i {
   font-weight: bold;
   letter-spacing: 4.2px;
   text-transform: uppercase;
-  line-height: normal;
-  padding-bottom: 15px;
+  padding-top: 3px;
 }
 
 .p_feat_text p {
@@ -429,8 +428,8 @@ button[type=submit]:hover {
   .navigation {
     float: none;
     justify-content: center;
-    margin-top: 40px;
-    padding-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 0px;
   }
   .logo {
     float: none;
@@ -441,7 +440,7 @@ button[type=submit]:hover {
     justify-content: center;
     margin: 0 auto;
     margin-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     width: 85%;
   }
   .navigation li {

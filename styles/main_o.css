@@ -174,6 +174,153 @@ i {
   text-align: left;
 }
 
+projects {
+  justify-content: center;
+  margin: 0 auto;
+  margin: 100px 0px;
+  text-align: center;
+  width: 100%;
+}
+
+.projects_title {
+  padding-bottom: 50px;
+}
+
+.project_list p, .project_list_featured p, .pproject_list p {
+  font-size: 1.4rem;
+  margin: 0 auto;
+  width: 240px;
+}
+.project_list h1, .project_list_featured h1, .pproject_list h1 {
+  color: #545454;
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  text-align: center;
+}
+.project_list h2, .project_list_featured h2, .pproject_list h2 {
+  font-size: 1.6rem;
+}
+
+.project_list li, .project_list_featured li, .pproject_list li {
+  display: inline-grid;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.polaroid {
+  padding: 5px;
+  -webkit-box-shadow: 0 6px 8px #545454;
+  -moz-box-shadow: 0 6px 8px #545454;
+  box-shadow: 0 6px 8px #545454;
+}
+
+.polaroid_pic {
+  max-width: 240px;
+  margin: 15px;
+}
+
+.p_feat_pic {
+  margin: 15px;
+}
+
+.polaroid_picf {
+  max-width: 200px;
+  margin: 15px;
+}
+
+.ppolaroid_pic {
+  max-width: 180px;
+  padding: 5px;
+}
+
+.p_caption {
+  padding-bottom: 15px;
+}
+
+.p_whitebkgd {
+  border: 1px solid #808080;
+}
+
+.p_featured {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 10px;
+  justify-content: center;
+  text-align: left;
+  max-width: 490px;
+}
+
+.pp_featured {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 10px;
+  justify-content: center;
+  text-align: left;
+  max-width: 760px;
+}
+
+.p_feat_text {
+  padding-top: 20px;
+}
+
+.p_feat_text h1 {
+  text-align: left;
+}
+
+.p_feat_text h3, .p_caption h3 {
+  color: #808080;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 4.2px;
+  text-transform: uppercase;
+  line-height: normal;
+  padding-bottom: 15px;
+}
+
+.p_feat_text p {
+  width: auto;
+  padding-right: 15px;
+}
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+.item .polaroid:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  transition: all 0.35s;
+}
+.item {
+  transform: scale(0.88, 0.88);
+  transition: all 0.35s;
+}
+.item .polaroid:before {
+  transform: rotate(6deg);
+  height: 20%;
+  width: 47%;
+  bottom: 10px;
+  right: 12px;
+}
+
+.item:hover, .item_odd:hover {
+  filter: none;
+  transform: scale(1, 1) rotate(0deg) !important;
+  transition: all 0.35s;
+}
+.item:hover .polaroid:before, .item_odd:hover .polaroid:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  transform: rotate(0deg);
+  height: 90%;
+  width: 90%;
+  bottom: 0%;
+  right: 5%;
+  transition: all 0.35s;
+}
+
 footer {
   background-color: #545454;
   bottom: 0;

@@ -88,20 +88,21 @@ a.current:link {
 .projects {
   justify-content: center;
   margin: 0 auto;
-  margin-bottom: 40px;
+  margin: 100px 0px;
   text-align: center;
+  width: 100%;
 }
 
 .projects_title {
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
-.project_list p {
+.project_list p, .project_list_featured p, .pproject_list p {
   font-size: 1.4rem;
   margin: 0 auto;
   width: 240px;
 }
-.project_list h1 {
+.project_list h1, .project_list_featured h1, .pproject_list h1 {
   color: #545454;
   font-size: 2.2rem;
   font-weight: bold;
@@ -110,7 +111,7 @@ a.current:link {
   text-transform: none;
 }
 
-.project_list h2 {
+.project_list h2, .project_list_featured h2, .pproject_list h2 {
   font-size: 1.6rem;
   font-weight: normal;
   text-align: center;
@@ -132,6 +133,11 @@ a.current:link {
   -webkit-box-shadow: 0 6px 8px #545454;
   -moz-box-shadow: 0 6px 8px #545454;
   box-shadow: 0 6px 8px #545454;
+}
+
+.polaroid_pic {
+  max-width: 240px;
+  margin: 15px;
 }
 
 .p_feat_pic {
