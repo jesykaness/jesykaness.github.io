@@ -9,6 +9,7 @@
 }
 
 .hero_image img {
+  border-radius: 8px;
   object-fit: cover;
   overflow: hidden;
   width: 240px;
@@ -17,9 +18,7 @@
   padding: 15px 15px 40px;
   text-align: center;
   text-decoration: none;
-  -webkit-box-shadow: 0 6px 8px #545454;
-  -moz-box-shadow: 0 6px 8px #545454;
-  box-shadow: 0 6px 8px #545454;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .image_right {

@@ -103,13 +103,12 @@ i {
 
 .hello_image img {
   background: #ffffff;
+  border-radius: 8px;
   margin-left: 50px;
   padding: 15px 15px 40px;
   text-align: center;
   text-decoration: none;
-  -webkit-box-shadow: 0 6px 8px #545454;
-  -moz-box-shadow: 0 6px 8px #545454;
-  box-shadow: 0 6px 8px #545454;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   -webkit-transform: rotate(-6deg);
   -moz-transform: rotate(-6deg);
 }
@@ -158,10 +157,9 @@ i {
 }
 
 .polaroid {
+  border-radius: 8px;
   padding: 5px;
-  -webkit-box-shadow: 0 6px 8px #545454;
-  -moz-box-shadow: 0 6px 8px #545454;
-  box-shadow: 0 6px 8px #545454;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .polaroid_pic {
@@ -188,7 +186,7 @@ i {
 }
 
 .p_whitebkgd {
-  border: 1px solid #808080;
+  border: 1px solid #E0E0E0;
 }
 
 .p_featured {
