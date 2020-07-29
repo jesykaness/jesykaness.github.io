@@ -56,6 +56,10 @@
   width: 100%;
 }
 
+.intro_text h2 {
+  font-size: 2.0rem;
+}
+
 .deliverables_column {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -90,6 +94,25 @@
 .research_b_text {
   margin-bottom: 20px;
   width: 100%;
+}
+
+.twi_pinterest, .twi_googlet, .twi_groupme {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  grid-gap: 20px;
+  margin: 0 auto;
+  align-items: center;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.twi_pinterest p, .twi_googlet p, .twi_groupme p {
+  max-width: 800px;
+}
+
+.pinterest_logo img, .googlet_logo img, .groupme_logo img {
+  width: 50px;
+  margin: 0px 20px 0px 20px;
 }
 
 .research_c_text, .research_d_text {
@@ -131,6 +154,11 @@
   justify-content: center;
   padding-bottom: 20px;
 }
+
+.user_stories h2 {
+  font-size: 2.0rem;
+}
+
 .user_new, .user_returning {
   border: 1px solid #545454;
   display: grid;
@@ -315,6 +343,30 @@
     width: 50px;
     margin: 20px 25px 50px 25px;
   }
+
+  .twi_pinterest, .twi_googlet, .twi_groupme {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 800px;
+    margin-top: 20px;
+  }
+
+  .twi_pinterest p, .twi_googlet p, .twi_groupme p {
+    max-width: 800px;
+  }
+
+  .pinterest_logo img, .googlet_logo img, .groupme_logo img {
+    width: 80px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+.pinterest_logo, .googlet_logo, .groupme_logo {
+  margin: 0 auto;
+}
 
   .user_personas {
     display: grid;
