@@ -83,12 +83,18 @@ i {
   text-decoration: overline;
 }
 
-
 .navigation li {
   display: inline-block;
   font-size: 1.5rem;
   padding-left: 25px;
   text-transform: uppercase;
+}
+
+#navbar {
+  background-color: #FFFFFF;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
 }
 
 .hello {
@@ -375,10 +381,6 @@ footer {
   text-transform: uppercase;
 }
 
-.contact_info  {
-  padding: 200px 0px;
-  width: 300px;
-}
 .contact_info h4 {
   color: #FFFFFF;
 }
