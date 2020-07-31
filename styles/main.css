@@ -419,141 +419,142 @@ button[type=submit]:hover {
 }
 
 @media screen and (max-width: 767px) {
-  .projects {
+    .projects {
+      justify-content: center;
+      margin: 0 auto;
+      overflow: hidden;
+      width: 85%;
+    }
+    .navigation {
+      float: none;
+      justify-content: center;
+      padding-top: 40px;
+      padding-bottom: 0px;
+    }
+    .logo {
+      float: none;
+      padding-bottom: 20px;
+    }
+    .navigation_list {
+      float: none;
+      justify-content: center;
+      margin: 0 auto;
+      margin-top: 20px;
+      padding-bottom: 40px;
+      width: 85%;
+    }
+    .navigation li {
+      font-size: 1.2rem;
+      padding: 12px;
+    }
+    .hello {
+      display: grid;
+      grid-template-columns: auto;
+      justify-content: center;
+      margin: 0 auto;
+      width: 85%;
+    }
+    .hello_image img {
+      margin-left: auto;
+      margin: 0 auto;
+      -webkit-box-shadow: 0 4px 6px #545454;
+      -moz-box-shadow: 0 4px 6px #545454;
+      box-shadow: 0 4px 6px #545454;
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      align-items: center;
+      height: auto;
+      margin-top: 50px;
+      width: 92%;
+    }
+    .hello_text {
+      margin: 0 auto;
+      margin-bottom: 50px;
+      width: 100%;
+    }
+
+    .project_list p, .pproject_list p {
+      display: none;
+    }
+    .project_list h1, .pproject_list h1 {
+      text-align: center;
+    }
+    .project_list, .pproject_list {
+      margin-bottom: 50px;
+    }
+
+    .polaroid {
+      height: auto;
+      padding: 5px;
+    }
+
+    .project_list li, .pproject_list li {
+      display: inline-grid;
+      list-style: none;
+      margin: 12px 0px;
+    }
+
+    .polaroid img {
+      width: 85%;
+      margin: 15px;
+    }
+
+    #content-desktop {display: none;}
+    #content-mobile {display: block;}
+
+    #myBtn {
+      bottom: 40px;
+      right: 40px;
+  }
+
+  footer {
+    background-color: #545454;
+    bottom: 0;
+    color: #FFFFFF;
+    height: 180px;
+    padding-top: 0.6rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .social_media {
+    font-size: 3rem;
+  }
+
+  .social_media li {
+    padding: 0px 12px 10px;
+  }
+
+  .p_featured {
+    display: flex;
     justify-content: center;
-    margin: 0 auto;
-    overflow: hidden;
-    width: 85%;
+    text-align: left;
+    max-width: 925px;
   }
-  .navigation {
-    float: none;
-    justify-content: center;
-    padding-top: 40px;
-    padding-bottom: 0px;
-  }
-  .logo {
-    float: none;
-    padding-bottom: 20px;
-  }
-  .navigation_list {
-    float: none;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 20px;
-    padding-bottom: 40px;
-    width: 85%;
-  }
-  .navigation li {
-    font-size: 1.2rem;
-    padding: 12px;
-  }
-  .hello {
+
+  .contact_me {
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
     margin: 0 auto;
     width: 85%;
   }
-  .hello_image img {
-    margin-left: auto;
-    margin: 0 auto;
-    -webkit-box-shadow: 0 4px 6px #545454;
-    -moz-box-shadow: 0 4px 6px #545454;
-    box-shadow: 0 4px 6px #545454;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    align-items: center;
-    height: auto;
-    margin-top: 50px;
-    width: 92%;
+
+  .contact_text {
+    margin-bottom: 20px;
   }
-  .hello_text {
-    margin: 0 auto;
-    margin-bottom: 50px;
+
+  .contact_form {
+    margin-bottom: 20px;
     width: 100%;
   }
 
-  .project_list p, .pproject_list p {
-    display: none;
+  input[type=text], textarea {
+    width: 100%;
   }
-  .project_list h1, .pproject_list h1 {
-    text-align: center;
-  }
-  .project_list, .pproject_list {
-    margin-bottom: 50px;
-  }
-
-  .polaroid {
-    height: auto;
-    padding: 5px;
-  }
-
-  .project_list li, .pproject_list li {
-    display: inline-grid;
-    list-style: none;
-    margin: 12px 0px;
-  }
-
-  .polaroid img {
-    width: 85%;
-    margin: 15px;
-  }
-
-  #content-desktop {display: none;}
-  #content-mobile {display: block;}
-
-  #myBtn {
-    bottom: 40px;
-    right: 40px;
 }
 
-footer {
-  background-color: #545454;
-  bottom: 0;
-  color: #FFFFFF;
-  height: 180px;
-  padding-top: 0.6rem;
-  text-align: center;
-  width: 100%;
-}
-
-.social_media {
-  font-size: 3rem;
-}
-
-.social_media li {
-  padding: 0px 12px 10px;
-}
-
-.p_featured {
-  display: flex;
-  justify-content: center;
-  text-align: left;
-  max-width: 925px;
-}
-
-.contact_me {
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
-  margin: 0 auto;
-  width: 85%;
-}
-
-.contact_text {
-  margin-bottom: 20px;
-}
-
-.contact_form {
-  margin-bottom: 20px;
-  width: 100%;
-}
-
-input[type=text], textarea {
-  width: 100%;
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .hello, .projects {
     justify-content: center;
     margin: 0 auto;
@@ -582,11 +583,14 @@ input[type=text], textarea {
     grid-template-columns: auto;
     justify-content: center;
     margin: 0 auto;
-    width: 85%;
+    margin-bottom: 50px;
+    width: 100%;
   }
 
-  .hello_image img {
-    width: 100px;
+  .hello_image {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
   }
 
   .projects {
@@ -600,5 +604,22 @@ input[type=text], textarea {
     justify-content: center;
     text-align: left;
     max-width: 325px;
+  }
+
+  .contact_me {
+    grid-template-columns: auto;
+  }
+
+  .contact_text {
+    margin-bottom: 40px;
+  }
+
+  .contact_form {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  input[type=text], textarea {
+    width: 100%;
   }
 }

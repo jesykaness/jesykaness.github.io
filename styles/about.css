@@ -73,6 +73,7 @@
   .image_left {
     -webkit-transform: rotate(-6deg);
     -moz-transform: rotate(-6deg);
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -80,6 +81,10 @@
     justify-content: center;
     margin: 0 auto;
     max-width: 85%;
+  }
+
+  .hero_image img {
+    width: 190px;
   }
 
   .about_hero {
