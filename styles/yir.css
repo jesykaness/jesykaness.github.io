@@ -267,8 +267,11 @@ h5 {
   margin: 20px;
   width: 200px;
 }
-.branding_a_text, .branding_b_text, .branding_c_text, .pptut_a_text, .pptut_b_text {
+.branding_a_text, .branding_c_text, .pptut_a_text, .pptut_b_text {
   margin-bottom: 80px;
+}
+.branding_b_text {
+  margin-bottom: 40px;
 }
 .branding_a_images {
   text-align: center;
@@ -282,6 +285,7 @@ h5 {
 .styleguide_images {
   margin: 0 auto;
   text-align: center;
+  padding-bottom: 120px;
 }
 .styleguide_images img {
   border: 1px solid #545454;
