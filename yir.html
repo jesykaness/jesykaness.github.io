@@ -49,10 +49,10 @@
         <div class="yir_linklist">
           <ul class="link_list">
             <li>
-              <a href="#intro">Intro</a>
+              <a href="#research">Research</a>
             </li>
             <li>
-              <a href="#research">Research</a>
+              <a href="#infoarch">Information Architecture</a>
             </li>
             <li>
               <a href="#branding">Branding</a>
@@ -100,16 +100,48 @@
       <section class="yir_research" id="research">
         <div class="research_a_text">
           <h2>Research</h2>
-          <p>First I conducted an online survey to get a general consensus of lifestyle tracking. I  wanted to see if people who aren’t currently tracking anything would be interested in tracking if they had a good habit that they wanted to start, or a bad habit they wanted to get rid of. I found out that <b>70% of people who don’t currently track find it to be too much work.</b> However, all of them said they have some sort of habit they would like to start or stop, and 80% of them would be willing to try tracking.</p>
-          <br><p>I also wanted to see what kinds of habits people were tracking and how they were tracking it. I found out that the <b>most popular categories for tracking are: exercise, mood, and food or calorie intake.</b> Lastly, I wanted to see what kinds of problems people who are currently tracking run into, which brings me to a response that really stood out to me:</p>
+          <h5>User Flows</h5>
+          <p>In order to better understand the behaviors of current trackers, as well as non-trackers, I conducted an online survey to get a general consensus of lifestyle tracking. I wanted to know:</p>
+          <br><ul class="cs_list">
+              <li><p>What kind of habits were people tracking?</p></li>
+              <li><p>How are they tracking it?</p></li>
+              <li><p>What can be improved in their current way of tracking?</p></li>
+              <li><p>What are some reasons for non-trackers to not track?</p></li>
+              <li><p>Would non-trackers be interested in tracking if they wanted to start a good habit or stop a bad habit?</p></li>
+            </ul>
+          <br><br><p>After a couple of days of collecting results, I found that:</p>
+            <div class="stats_text">
+              <div>
+                <h1>56%</h1>
+                <p>of people are currently tracking.</p>
+              </div>
+              <div>
+                <h1>88%</h1>
+                <p>use some sort of mobile app and/or wearable device.</p>
+              </div>
+              <div>
+                <h1>58%</h1>
+                <p>of mobile app trackers wished it was more interactive.</p>
+              </div>
+              <div>
+                <h1>Top 3</h1>
+                <p>categories are: exercise, food/calorie intake, and mood.</p>
+              </div>
+              <div>
+                <h1>70%</h1>
+                <p>of non-trackers found it to be too much work.</p>
+              </div>
+              <div>
+                <h1>80%</h1>
+                <p>of non-trackers would be willing to try.</p>
+              </div>
+            </div>
+          <br><p>I also came across a response that really stood out to me:</p>
           <br><p class="quote"> “I wish there was a way I was able to actually keep a habit, not give up after a week. I have ADHD and think that makes it a lot harder, it <b>feels like most apps are made for very neurotypical people</b>.”</p>
-          <br><p>So, I really wanted to make sure this app wasn’t something people eventually forgot about.</p>
-        </div>
-        <div class="research_a_images">
-          <img src="images/yir/survey_02.JPG" alt="survey results for reasons for not tracking lifestyle">
-          <img src="images/yir/survey_01.JPG" alt="survey results for currently tracking categories">
+          <br><p>So, I really wanted to make sure this app was interactive enough that it didn't become something users eventually forgot about.</p>
         </div>
         <div class="research_b_text">
+          <h5>Competitive Analysis</h5>
           <p>I also took a look at some existing lifestyle tracking apps such as Fitbit, Habitica, and Simple Habit Tracker. I wanted to see what worked with each one  and what I could do differently.</p>
           <div class="research_twi">
             <div class="twi_fitbit">
@@ -117,7 +149,12 @@
                 <img src="images/yir/fitbit.png" alt="fitbit logo">
               </div>
               <div class="fitbit_text">
-                <p><b>Fitbit:</b> This is actually the current lifestyle tracker I use. It uses an extra tracking device, to track your steps, heart rate, workouts, and even sleep. Everything is recorded in the app, however, I find that I can go days without even looking at the app due to lack of notifications. There are a few days where I could have made my step goals, and a notification would have helped me reach my goal.</p>
+                <p><b>Fitbit:</b> This is actually the current lifestyle tracker I use.</p>
+                  <ul class="ca_list">
+                    <li><p>It uses an extra tracking device, to track your steps, heart rate, workouts, and even sleep.</p></li>
+                    <li><p>Due to lack of interaction, the user can go days without looking at the app.</p></li>
+                    <li><p>Can set step or exercise goals, but lack of notifications to push me to reach my goals, even if I’m really close.</p></li>
+                  </ul>
               </div>
             </div>
             <div class="twi_habitica">
@@ -125,7 +162,12 @@
                 <img src="images/yir/habitica.png" alt="habitica logo">
               </div>
               <div class="habitica_text">
-                <p><b>Habitica:</b>  This gives lifestyle tracking a new take and turns it into a game. You can level up and customize your avatar with the points you get as rewards for completing a habit. However, it only tracks daily habits, and users aren’t able to see long-term progression such as weekly, monthly, or yearly.</p>
+                <p><b>Habitica:</b>  This gives lifestyle tracking a new take and turns it into a game.</p>
+                  <ul class="ca_list">
+                    <li><p>Users are rewarded with points for completing a habit for the day.</p></li>
+                    <li><p>Users can level up and customize their avatar with the points. </p></li>
+                    <li><p>Only tracks daily habits, and users aren’t able to see long-term progression such as weekly, monthly, or yearly.</p></li>
+                  </ul>
               </div>
             </div>
             <div class="twi_simple">
@@ -133,12 +175,19 @@
                 <img src="images/yir/simplehabit.png" alt="simple habit logo">
               </div>
               <div class="simple_text">
-                <p><b>Simple Habit:</b> This app encourages users to practice good habits by going on a 21 day challenge. It is organized and color coded, but users are only able to view weekly and aren’t able to continue with the habit once the 21 day period is over.</p>
+                <p><b>Simple Habit:</b> This app encourages users to practice good habits by going on a 21 day challenge.</p>
+                  <ul class="ca_list">
+                    <li><p>The app is well organized and color coded. </p></li>
+                    <li><p>Users are only able to view weekly progress.  </p></li>
+                    <li><p>Users aren’t able to continue tracking the habit once the 21 day period is over.</p></li>
+                  </ul>
               </div>
             </div>
           </div>
+        </div>
         <div class="research_c_text">
-          <p>With the information I gathered, I wanted to make a lifestyle tracker that combined some of these qualities. One, I wanted to make sure the user was <b>engaged and continually motivated</b>, and second, the user has to be able to <b>view their data and see their progress over time</b>.</p>
+          <h5>User Persona</h5>
+          <p>After conducting my research, I thought about who the target audience would be. I wanted the mobile app to appeal to a wide range of people, which meant varying interests in lifestyle tracking.</p>
         </div>
         <div class="user_personas">
           <div class="fitness_queen">
@@ -178,8 +227,10 @@
             </div>
           </div>
         </div>
-        <div class="research_d_text">
-            <br><p>With these three people in mind, I created a list of tasks I wanted the app to be able to perform, and rated their importance from High to Low. Some of the higher importance tasks included: being able to create an account and sign in, start tracking from preset trackers, create new and edit trackers, and see progress data over the span of a day, week, month, year, or overall. Based on the importance of the task, I created a flow chart of the steps a user would have to take to achieve these tasks.</p>
+        <div class="research_d_text" id="infoarch">
+          <h2>Information Architecture</h2>
+          <h5>User Stories</h5>
+            <p>With these three people in mind, I created a list of tasks I wanted the app to be able to perform, and rated their importance from High to Low.</p>
         </div>
         <div class="user_stories">
           <div class="user_new">
@@ -213,26 +264,31 @@
       </section>
       <section class="yir_userflows">
         <div class="userflows_text">
-          <h2>User Flows</h2>
-          <p>While there are a lot of things that needed to be implemented, the most important of the user flows would be the “notifications” flow. To keep the user actively engaged, we used notifications to remind the user to be mindful of keeping good habits. The user can interact with the notifications, bringing them directly to the app to track and input information, or to set a new reminder notification if it hasn't been completed. We also implemented morning, evening, and/or night check-ins, to help develop a routine to help keep the user on track.</p>
+          <h5>User Flows</h5>
+          <p>Based on the importance of the task, I created flow charts of the steps a user would have to take to achieve these tasks. While there are a lot of things that needed to be implemented, the top three user stories were for creating an account, adding new habits, and most importantly, notifications.</p>
         </div>
         <div class="userflows_images">
-         <img src="images/yir/userflow_sitemap.png" alt="userflow sitemap">
-         <img src="images/yir/userflow_notifications.png" alt="userflow for organization">
-         <img src="images/yir/userflow_newhabit.png" alt="userflow for collaboration and making an itinerary">
-         <img src="images/yir/userflow_viewdata.png" alt="userflow for creating an account">
-        </div>
-        <div class="userflows_b_text">
-          <p>With the user flows planned out, I was able to start building the wireframe for the desktop website. I started ideating on paper, trying to get a general feel of what the website should look like, and to make sure all my frames checked off all the tasks of the flow chart. After that, it was easy to transfer my drawings onto Figma.</p>
+          <p><b>1. As a new user, I want to create a new account.</b><p>
+          <img src="images/yir/userflow_createaccount.png" alt="userflow for creating an account">
+          <p><b>2. As a user, I want to start tracking a new habit.</b></p>
+          <img src="images/yir/userflow_newhabit.png" alt="userflow for collaboration and making an itinerary">
+          <p><b>3. As a user, I want reminders and notifications to keep me engaged and motivated.</b></p>
+          <img src="images/yir/userflow_notifications.png" alt="userflow for collaboration and making an itinerary">
+          <h5>Sitemap</h5>
+          <p>With user stories and flows planned out, it was easy to stitch the pieces together with an overarching sitemap. This helped create content strategy, and provided a reference to look to when designing the screens.</p>
+          <img src="images/yir/userflow_sitemap.png" alt="userflow sitemap">
         </div>
       </section>
       <section class="yir_wireframing">
-        <h2>Wireframing & Usability Testing</h2>
+        <h5>Wireframing & Usability Testing</h5>
+        <div class="userflows_b_text">
+          <p>With the everything planned out, I was able to start building the wireframe for the desktop website. I started ideating on paper, trying to get a general feel of what the website should look like, and to make sure all my frames checked off all the tasks of the flow chart.</p>
+        </div>
         <div class="wireframing_images">
           <img src="images/yir/wireframe_sketches.png" alt="wifreframe sketches">
         </div>
         <div class="wireframing_text">
-          <p>To start planning out the app, I started off with a wireframe mockup of what I thought the app would look like. With the basic structure of the website, sans design, color, font, or images, I was able to hash out the general flow of how I wanted things to go.</p>
+          <p>After that, it was easy to transfer my drawings onto Figma. With the basic structure of the website, sans design, color, font, or images, I was able to hash out the general flow of how I wanted things to go.</p>
         </div>
         <div class="wireframing_images_b">
           <img src="images/yir/wireframe_onboarding.png" alt="wireframe for onboarding screen">
@@ -244,37 +300,47 @@
       <section class="yir_branding" id="branding">
         <div class="branding_a_text">
           <h2>Branding</h2>
-          <p>However, since my concept relies heavily on color, I knew I had to lock down an aesthetically pleasing brand. I started off by choosing a name for the app, ideating off words that centered around health, habits, and lifestyle. I decided on You in Review, which to me is on point with what the data presented in the app is about.</p>
+          <h5>Logo</h5>
+          <p>Since my concept relies heavily on color, I knew I had to lock down an aesthetically pleasing brand. I started off by choosing a name for the app, <b>ideating off words that centered around health, habits, and lifestyle.</b> I decided on <i>You in Review, which perfectly represents the data insights the app provides.</i></p>
+          <br><p>To further tie in the brand to the logo, I incorporated an element directly from the app itself, and used that to create a make-shift circular border around the word “You”.</p>
         </div>
         <div class="branding_a_images">
           <img src="images/yir/yir_logo_full.png" alt="final horizontal logo">
         </div>
         <div class="branding_b_text">
-          <p>Next was choosing the color palette. I wanted it to have the colors that would be centered around the categories for the app and knew there would be at least 4 categories, so I chose two cool and two warm colors to be the main color palette. I also needed a main color that kept the whole thing together, so I decided on choosing the golden yellow since it seemed warm and inviting. With these colors in mind, it was easy to incorporate them in the logo. I also decided to incorporate an element directly from the app itself, and used that to create a make-shift circular border around the word “You”.</p>
+          <h5>Color & Typeface</h5>
+          <p>I wanted the colors to be be <b>centered around the four categories,</b> so I chose two cool and two warm colors to be the main color palette. I also needed a main color that kept the whole thing together, so I decided on choosing <b>the golden yellow since it seemed warm and inviting.</b> With these colors in mind, it was easy to incorporate them in the logo.</p>
         </div>
         <div class="yir_styleguide">
           <img src="images/yir/styleguide_color.jpg" alt="styleguide for color">
+          <p>I chose a typeface that was easy to read, while playing on a medicinal aesthetic. I wanted to pair a serif with a sans-serif, so I chose within the same family.</p>
           <img src="images/yir/styleguide_typeface.jpg" alt="styleguide for typeface">
         </div>
         <div class="branding_c_text">
+          <h5>Style Guide</h5>
           <p>After finalizing a logo and essentially a brand, I wanted to make sure everything was consistent with one another before “dressing up” the wireframe. Creating a style guide, or a set of standards allowed me to make sure I didn’t have slightly different variations of the same color, or font that kept on changing as you used the app. </p>
-        </div>
+          <div class="styleguide_images">
+            <img src="images/yir/styleguide_index.jpg" alt="index page of you in review's style guide">
+            <img src="images/yir/styleguide_logo01.jpg" alt="first logo page of you in review's style guide">
+            <img src="images/yir/styleguide_logo02.jpg" alt="second logo page of you in review's style guide">
+            <br><a class="vbutton" href="images/yir/yir_styleguide.pdf">View Style Guide</a>
+          </div>
+          </div>
       </section>
       <section class="yir_pptut" id="prototypes">
         <div class="pptut_a_text">
           <h2>Prototyping & Usability Testing</h2>
+          <h5>Hi-Fidelty Prototypes</h5>
           <p>With my Style Guide established, I was able to incorporate it into my wireframe and make a working prototype. After finalizing those changes, I wanted to make sure the prototype would be usable without any kinks, so I conducted some usability tests.</p>
-          <br><p>I ran tests by giving them instructions to complete the onboarding process, as well as navigate through the app to see goals and data. It was very interesting to see how different people perceived the design. Specifically between one who was more creative, and another who was more logical. It really put my design and intentions into perspective, and how I could tweak a few things to make sure I got my point across. </p>
-        </div>
-        <div class="pptut_a_images">
-            <img src="images/yir/prototype_onboarding.png" alt="first prototype for onboarding page">
-            <img src="images/yir/prototype_landingpage.png" alt="first prototype for landing page after morning check in">
-            <img src="images/yir/prototype_today.png" alt="first prototype for today's goals">
-            <img src="images/yir/prototype_datapage.png" alt="first prototype for data page">
-        </div>
-        <div class="pptut_b_text">
-          <p>While the users can agree that the app is clean and aesthetically pleasing, there were some minor changes that needed to be made in order to make some buttons and its intended functions be more consistent and clear. Spacing issues was also a problem on some of the pages, where it was a little cluttered.</p>
+          <div class="pptut_a_images">
+              <img src="images/yir/prototype_onboarding.png" alt="first prototype for onboarding page">
+              <img src="images/yir/prototype_landingpage.png" alt="first prototype for landing page after morning check in">
+              <img src="images/yir/prototype_today.png" alt="first prototype for today's goals">
+              <img src="images/yir/prototype_datapage.png" alt="first prototype for data page">
           </div>
+          <h5>Usability Testing</h5>
+          <p>I ran tests by giving them instructions to complete the onboarding process, as well as navigate through the app to see goals and data. It was very interesting to see how different people perceived the design. Specifically between one who was more creative, and another who was more logical. It really put my design and intentions into perspective, and how I could tweak a few things to make sure I got my point across. </p>
+        </div>
         <div class="before_after">
           <div class="ba_datapage">
             <img src="images/yir/datapage_before.png" alt="data page before usability testing">
@@ -288,12 +354,16 @@
             <img src="images/yir/edittracker_before.png" alt="edit tracker pop-up before usability testing">
             <img src="images/yir/edittracker_after.png" alt="edit tracker pop-up after usability testing">
           </div>
+        </div>
+        <div class="pptut_b_text">
+          <p>While the users can agree that the app is clean and aesthetically pleasing, there were some minor changes that needed to be made in order to make some buttons and its intended functions be more consistent and clear. Spacing issues was also a problem on some of the pages, where it was a little cluttered.</p>
+          </div>
       </section>
       <section class="yir_conclusion" id="conclusion">
         <div class="conclusion_text">
           <h2>Conclusion</h2>
-          <p>While I am overall happy with the final prototype, usability testing also brought up some interesting concerns that I hadn’t thought of that I could address in future developments. Although this app was intended to use color as a motivating factor, there is room to develop for colorblind people.</p>
-          <br><p>It was also brought up that the year view in data analytics might set off trypophobia for some people, so I would need to address that as well. Other minor developments would include smaller preference settings such as choosing between 12 hours vs 24 hour time, integrating other motivating factors such as words of encouragement, and habit tools such as integrating hourly data inputs and water intake suggestions.</p>
+          <p>While I am overall happy with the final prototype, <b>usability testing also brought up some interesting concerns</b> that I hadn’t thought of that I could address in future developments. Although this app was intended to use color as a motivating factor, <b>there is room to develop for colorblind people.</b></p>
+          <br><p>It was also brought up that the year view in data analytics might set off trypophobia for some people, so I would need to address that as well. <i>Other minor developments would include smaller preference settings</i> such as choosing between 12 hours vs 24 hour time, integrating other motivating factors such as words of encouragement, and habit tools such as integrating hourly data inputs and water intake suggestions.</p>
         </div>
         <div class="final_product">
           <img src="images/yir/mobile_prototype-02.png" alt="mobile prototype preview">

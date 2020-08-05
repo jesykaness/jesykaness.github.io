@@ -60,6 +60,13 @@ i {
   font-style: italic;
 }
 
+hr {
+  max-width: 700px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #808080;
+}
+
 .navigation {
   padding-bottom: 50px;
   padding-top: 50px;
