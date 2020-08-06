@@ -52,6 +52,17 @@ h4 {
   font-size: 1.2rem;
 }
 
+h5 {
+  color: #2B2B2B;
+  font-size: 2.0rem;
+  padding-bottom: 3px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  max-width: 700px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
 b {
   font-weight: bold;
 }
@@ -426,6 +437,10 @@ button[type=submit]:hover {
 }
 
 @media screen and (max-width: 767px) {
+    h5 {
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
     .projects {
       justify-content: center;
       margin: 0 auto;
