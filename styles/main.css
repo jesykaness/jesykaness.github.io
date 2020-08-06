@@ -436,6 +436,17 @@ button[type=submit]:hover {
   border: .1px solid #FFFFFF;
 }
 
+figure {
+  display: inline-block;
+  margin: auto;
+  padding-bottom: 50px;
+}
+figcaption {
+  color: #606060;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
 @media screen and (max-width: 767px) {
     h5 {
       padding-top: 20px;
