@@ -36,15 +36,15 @@
 
 .vbutton {
   background-color: #FFFFFF;
-  border: .1px solid #808080;
+  border: .1px solid #707070;
   border-radius: 20px;
   font-size: 14px;
   padding: 6px 20px;
 }
 
 .vbutton:hover {
-  background-color: #2B2B2B;
-  border: .1px solid #2B2B2B;
+  background-color: #E2B779;
+  border: .1px solid #E2B779;
   color: #FFFFFF;
 }
 
@@ -67,6 +67,7 @@
 
 .intro_text h2 {
   font-size: 2.0rem;
+  font-weight: bold;
 }
 
 .deliverables_column {
@@ -81,6 +82,7 @@
 }
 
 .research_a_text h2, .userflows_text h2, .research_d_text h2, .yir_wireframing h2, .yir_branding h2, .yir_pptut h2, .conclusion_text h2 {
+  color: #E2B779;
   text-align: center;
   padding-bottom: 60px;
 }
@@ -117,6 +119,11 @@
   list-style-type: circle;
 }
 
+.cs_list p, .ca_list p {
+  line-height: normal;
+  padding-bottom: 5px;
+}
+
 .ca_list {
   max-width: 700px;
   margin: 0 auto;
@@ -134,7 +141,7 @@
 }
 
 .stats_text h1{
-  color: #808080;
+  color: #E2B779;
   font-weight: bolder;
   text-align: left;
 }
@@ -287,7 +294,7 @@
   margin-bottom: 100px;
   text-align: center;
 }
-.pptut_a_images {
+.pptut_a_images, .wireframing_images_b {
   display: flex;
   justify-content: center;
   margin-bottom: 5px;
@@ -299,12 +306,30 @@
   width: 100%;
 }
 
+.pptut_a_images, .wireframing_images_b {
+  margin: 0 auto;
+  text-align: center;
+}
 .pptut_a_images img {
   border: 1px solid #545454;
   margin: 80px 20px 10px 20px;
   width: 200px;
 }
 
+.pptut_motivate {
+  display: grid;
+  grid-template-columns: 1.8fr 1fr;
+  grid-gap: 30px;
+}
+.motivate_text {
+  padding-top: 30px;
+}
+.motivate_gif {
+  margin: 0 auto;
+}
+.motivate_gif img {
+  width: 250px;
+}
 
 .before_after {
   display: grid;
@@ -322,7 +347,6 @@
 
 .conclusion_text {
   margin-bottom: 20px;
-  width: 100%;
 }
 
 .final_product {
@@ -333,18 +357,18 @@
 
 .final_product img {
   height: 550px;
-  margin: 50px;
+  margin: 50px 0px 50px 0px;
 }
 
 @media screen and (max-width: 767px) {
-  .yir_hero, .yir_intro, .yir_research_b, .yir_wireframing, .before_after, .yir_conclusion {
+  .yir_hero, .yir_intro, .yir_research_b, .yir_wireframing, .before_after {
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
     margin: 0 auto;
     width: 85%;
   }
-  .yir_research, .yir_userflows, .yir_branding, .yir_pptut {
+  .yir_research, .yir_userflows, .yir_branding, .yir_pptut, .yir_conclusion {
     justify-content: center;
     margin: 0 auto;
     width: 85%;
@@ -354,12 +378,16 @@
     margin-bottom: 50px;
     width: 100%;
   }
-  .hero_image img, .intro_images img, .research_a_images img, .research_b_images img,  .wireframing_images img, .wireframing_images_b img, .branding_a_images img, .yir_styleguide img, .pptut_a_images img, .conclusion_images img {
+  .hero_image img, .intro_images img, .research_a_images img, .research_b_images img,  .wireframing_images img, .branding_a_images img, .yir_styleguide img, .conclusion_images img {
     justify-content: center;
     height: auto;
     margin: 0 auto;
     margin-bottom: 20px;
     width: 100%;
+  }
+  .wireframing_images_b img, .pptut_a_images img {
+    margin: 30px 0px 0px 0px;
+    width: 60%;
   }
   .yir_hero {
     margin-top: 30px;
@@ -430,9 +458,9 @@
     justify-content: center;
   }
 
-.fitbit_logo, .habitica_logo, .simple_logo {
-  margin: 0 auto;
-}
+  .fitbit_logo, .habitica_logo, .simple_logo {
+    margin: 0 auto;
+  }
 
   .user_personas {
     display: grid;
@@ -476,12 +504,31 @@
     display: inline;
   }
 
+  .pptut_motivate {
+    display: inline;
+  }
+  .motivate_text {
+    padding-top: 30px;
+  }
+  .motivate_gif {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .motivate_gif img {
+    padding: 30px 0px 30px 0px;
+    width: 100%;
+  }
+
+  .ba_datapage, .ba_onboarding, .ba_edittracker {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
   .before_after img {
-    margin-bottom: 20px;
-    width: 44%;
+    width: 85%;
   }
 
   .styleguide_images {
+    display: inline;
     margin: 0 auto;
     text-align: center;
   }
@@ -504,11 +551,10 @@
     border: none;
     color: none;
   }
-
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .yir_hero, .yir_intro, .yir_research_a, .yir_research_b, .yir_userflows_a, .yir_userflows_b, .yir_wireframing, .yir_branding_a, .yir_branding_b, .yir_pptut_a, .yir_pptut_b, .yir_pptut_c, .yir_conclusion {
+  .yir_hero, .yir_intro, .yir_research_a, .yir_research_b, .yir_userflows_a, .yir_userflows_b, .yir_wireframing, .yir_branding_a, .yir_branding_b, .yir_pptut, .yir_pptut_b, .yir_pptut_c, .yir_conclusion {
     justify-content: center;
     margin: 0 auto;
     padding-bottom: 20px;
@@ -558,6 +604,9 @@
     width: 47%;
   }
 
+  .wireframing_images_b img, .pptut_a_images img {
+    width: 80%;
+  }
   .yir_styleguide {
     display: grid;
     grid-gap: 10px;
@@ -578,9 +627,28 @@
     width: 80%;
   }
 
+  .pptut_motivate {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+    justy-content: center;
+    width: 100%;
+  }
+  .motivate_text {
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+  .motivate_gif {
+    margin: 0 auto;
+  }
+  .motivate_gif img {
+    width: 250px;
+  }
+
   .pptut_images_c img {
     width: 31%;
   }
+
   .before_after {
     display: grid;
     grid-template-columns: auto;
