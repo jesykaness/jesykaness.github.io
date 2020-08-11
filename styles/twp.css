@@ -34,8 +34,8 @@
 }
 
 .vbutton:hover {
-  background-color: #2B2B2B;
-  border: .1px solid #2B2B2B;
+  background-color: #409A8F;
+  border: .1px solid #409A8F;
   color: #FFFFFF;
 }
 
@@ -71,6 +71,7 @@
   margin-bottom: 100px;
 }
 .research_a_text h2, .research_d_text h2, .userflows_text h2, .twp_wireframing h2, .twp_branding h2, .twp_pptut h2, .conclusion_text h2, .pptut_a_text h2 {
+  color: #409A8F;
   text-align: center;
   padding-bottom: 60px;
 }
@@ -129,7 +130,7 @@
 }
 
 .stats_text h1{
-  color: #707070;
+  color: #409A8F;
   font-weight: bolder;
   text-align: left;
 }
