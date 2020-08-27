@@ -20,31 +20,46 @@
   margin-bottom: 80px;
   width: 100%;
 }
-.logo_images, .bc_images {
+.logo_images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 30px;
   justify-content: center;
   margin: 0 auto;
-  margin-bottom: 100px;
+  width: 800px;
 }
+
 .logo_images img {
-  width: 220px;
+  margin: 0 auto;
+  width: 150px;
+}
+.bc_images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  width: 800px;
 }
 .bc_images img {
-  width: 250px;
+  width: 180px;
 }
 .bc_final_images {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   margin: 0 auto;
-  margin-bottom: 200px;
+  width: 780px;
 }
 .bc_final_images img {
-  width: 500px;
+  margin: 0 auto;
+  width: 360px;
 }
 
+.jtn_linklist {
+  padding: 30px 0px 60px 0px;
+}
 .link_list {
   text-align: center;
 }
@@ -52,7 +67,7 @@
 .link_list li {
   display: inline-block;
   font-size: 1.5rem;
-  padding: 20px 30px 80px 30px;
+  padding: 15px;
   text-transform: uppercase;
 }
 
@@ -66,12 +81,62 @@
 }
 
 .website_text {
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px 80px 0px;
+}
+
+.before_website {
+  border: .1px solid #707070;
+  width: 900px;
+  height: 500px;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+.before_website img {
+  width: 100%;
+}
+
+.before_website_container figcaption {
+  padding-top: 5px;
+}
+
+.website_iterations {
+  margin-top: 50px;
+}
+
+.cs_list {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-left: 80px;
+}
+.cs_list ul {
+  display: inline-block;
+  list-style-type: circle;
+}
+
+.cs_list p {
+  line-height: normal;
+  padding-bottom: 5px;
+}
+
+.fav_screens img {
+  border: 1px solid #545454;
+  margin: 80px 5px 5px 5px;
+  width: 238px;
+}
+
+.final_product {
+  text-align: center;
+}
+.final_product li {
+  display: inline-block;
+  font-size: 1.5rem;
+  padding: 60px 50px 80px 50px;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 767px) {
-  .jtn_hero, .jtnlaw_logo, .business_cards {
-    display: grid;
+  .jtn_hero, .jtnlaw_logo, .business_cards, .website_hero, .website {
     grid-template-columns: auto;
     justify-content: center;
     margin: 0 auto;
@@ -89,10 +154,15 @@
     grid-gap: 30px;
     justify-content: center;
     margin: 0 auto;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
+    width: 85%;
   }
   .logo_images img, .bc_images img {
     width: 150px;
+  }
+
+  .jtnlogo_text, .bc_text, .bc_final_text {
+    margin-bottom: 60px;
   }
   .bc_final_images {
     display: grid;
@@ -100,9 +170,34 @@
     grid-gap: 20px;
     margin: 0 auto;
     margin-bottom: 100px;
+    width: 85%
   }
   .bc_final_images img {
     width: 100%;
+  }
+
+  .website_hero img {
+    width: 100%;
+  }
+
+  .fav_screens {
+    margin: 0 auto;
+  }
+  .fav_screens img {
+    margin: 20px 0px 0px 0px;
+    width: 100%;
+  }
+
+  .before_website {
+    border: .1px solid #707070;
+    width: 85%;
+    height: 300px;
+    overflow: auto;
+    margin: 0 auto;
+  }
+
+  .final_product li {
+    padding: 30px 50px 30px 50px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {

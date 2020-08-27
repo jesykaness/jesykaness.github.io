@@ -25,7 +25,7 @@ h1 {
 
 h2 {
   color: #2B2B2B;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: bolder;
   padding-bottom: 3px;
   text-align: left;
@@ -33,7 +33,7 @@ h2 {
 
 h3 {
   color: #2B2B2B;
-  font-size: 1.5rem;
+  font-size: 1.55rem;
   padding-bottom: 3px;
 }
 
@@ -41,6 +41,7 @@ p {
   color: #707070;
   font-size: 1.4rem;
   line-height: 1.6em;
+  padding-bottom: 5px;
 }
 
 h4 {
@@ -331,7 +332,7 @@ footer {
 
 .rs_content {
   display: grid;
-  grid-template-columns: 2.5fr 1fr;
+  grid-template-columns: 2.5fr 1.1fr;
   grid-gap: 90px;
   justify-content: center;
   margin-bottom: 100px;
@@ -342,6 +343,10 @@ footer {
   color: #707070;
   font-size: 1.4rem;
   padding-left: 5px;
+}
+
+.skill p {
+  line-height: 1.4em;
 }
 
 .computer ul, .graphic_design ul, .product_design ul, .uiux_design ul, .languages ul {
