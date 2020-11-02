@@ -345,13 +345,19 @@ footer {
   padding-left: 5px;
 }
 
-.skill p {
-  line-height: 1.4em;
+.job_description {
+  margin: 0 auto;
+  padding-left: 20px;
 }
 
-.computer ul, .graphic_design ul, .product_design ul, .uiux_design ul, .languages ul {
-  display: inline-block;
-  list-style-type: circle;
+.job_description p {
+  line-height: normal;
+  padding-bottom: 5px;
+  max-width: 600px;
+}
+
+.saveresume {
+  padding-top: 40px;
 }
 
 @media screen and (max-width: 767px) {
